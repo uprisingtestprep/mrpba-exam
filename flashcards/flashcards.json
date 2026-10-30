@@ -1,0 +1,3002 @@
+[
+ {
+  "id": 1,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What is the difference between ionising and non-ionising radiation, and which kind is used in MRI?",
+  "back": "Ionising radiation has enough energy per photon or particle to remove an electron from an atom. Non-ionising radiation does not. MRI uses non-ionising magnetic fields and radiofrequency pulses."
+ },
+ {
+  "id": 2,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Two photons have identical energy. One is called an x-ray and one a gamma ray. What separates them?",
+  "back": "Only their origin. X-rays come from the electron cloud or from electrons slowing down, while gamma rays come from the nucleus."
+ },
+ {
+  "id": 3,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "In an x-ray tube, roughly what share of the electron energy becomes x-rays and what share becomes heat?",
+  "back": "About 1 per cent becomes x-rays and about 99 per cent becomes heat. This is why anodes must cope with heat and loads are limited."
+ },
+ {
+  "id": 4,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A radiographer raises mA but keeps kVp the same. What changes in the beam?",
+  "back": "Only the number of photons changes, not their energy. Raising kVp changes the photon energy, penetration and contrast."
+ },
+ {
+  "id": 5,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Which interaction gives most of the contrast in a diagnostic x-ray image, and how does it vary with Z and energy?",
+  "back": "The photoelectric effect. It rises steeply with atomic number and falls steeply as photon energy rises, so bone and iodine absorb much more than soft tissue."
+ },
+ {
+  "id": 6,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Which interaction is the main source of scatter and staff dose in soft tissue?",
+  "back": "Compton scatter. It depends on electron density rather than atomic number, and the patient becomes the source of scatter radiation."
+ },
+ {
+  "id": 7,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What is the minimum photon energy for pair production, and why does PET depend on a related process?",
+  "back": "Pair production needs more than 1.022 MeV. PET depends on annihilation, where a positron and electron vanish and give two 511 keV photons in opposite directions."
+ },
+ {
+  "id": 8,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A beam of 100 µGy per hour passes through three half-value layers of lead. What intensity emerges?",
+  "back": "100 × 0.5 × 0.5 × 0.5 = 12.5 µGy per hour."
+ },
+ {
+  "id": 9,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "The air kerma rate is 4 mGy per hour at 1 m from a mobile unit. What is it at 2 m?",
+  "back": "Doubling the distance divides the rate by four, so 4 ÷ 4 = 1 mGy per hour."
+ },
+ {
+  "id": 10,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A staff member must stay near a source during a bedside examination. Which protection action is most effective and cheapest?",
+  "back": "Increase distance, because intensity falls with the square of distance. Reducing time and using shielding add further protection."
+ },
+ {
+  "id": 11,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A Tc-99m dose is 600 MBq at 08:00 with a half-life of 6 hours. What activity remains at 14:00?",
+  "back": "14:00 is one half-life later, so the activity is 600 × 0.5 = 300 MBq."
+ },
+ {
+  "id": 12,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A nuclear medicine patient arrives two hours late for a dose drawn up at calibration time. What is the best action?",
+  "back": "Recalculate the activity for the actual injection time using the half-life, then adjust the volume or draw a new dose, so the patient gets the prescribed activity."
+ },
+ {
+  "id": 13,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What is the formula that links absorbed dose, equivalent dose and effective dose?",
+  "back": "Equivalent dose = absorbed dose × wR. Effective dose = sum over tissues of equivalent dose × wT, and the wT values add up to 1."
+ },
+ {
+  "id": 14,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Lung receives 10 mGy and thyroid 5 mGy from photons. Using wT of 0.12 and 0.04, what is the effective dose from these two tissues?",
+  "back": "wR is 1 for photons. Lung 10 × 0.12 = 1.2 mSv and thyroid 5 × 0.04 = 0.2 mSv, so the total is 1.4 mSv."
+ },
+ {
+  "id": 15,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What are the occupational and public effective dose limits in the standard ICRP and ARPANSA values?",
+  "back": "Occupational: 20 mSv per year averaged over five years, with no more than 50 mSv in any single year. Public: 1 mSv per year."
+ },
+ {
+  "id": 16,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A pregnant patient is referred for a pelvic radiograph. What should the practitioner do first?",
+  "back": "Tell the referring practitioner or radiologist, who decides whether the examination is justified, delayed or replaced by a non-ionising method. The practitioner should not cancel or proceed alone."
+ },
+ {
+  "id": 17,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What are the three principles of radiation protection used in medical radiation practice?",
+  "back": "Justification, limitation and optimisation. Justification asks whether more good than harm results, limitation sets dose limits for workers and the public, and optimisation keeps doses as low as reasonably achievable."
+ },
+ {
+  "id": 18,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Do occupational dose limits apply to a patient having a justified X-ray examination?",
+  "back": "No. Dose limits apply to workers and members of the public. A patient's dose is controlled by justification and optimisation."
+ },
+ {
+  "id": 19,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "State the occupational effective dose limit used in Australia.",
+  "back": "20 mSv per year averaged over five consecutive years, with no more than 50 mSv in any single year."
+ },
+ {
+  "id": 20,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What is the effective dose limit for a member of the public?",
+  "back": "1 mSv per year."
+ },
+ {
+  "id": 21,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A worker's doses over five years are 18, 22, 15, 20 and 25 mSv. Is the occupational limit met?",
+  "back": "Yes. The total is 100 mSv, the average is 20 mSv per year, and the highest single year of 25 mSv is below 50 mSv."
+ },
+ {
+  "id": 22,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A dose rate is 80 µGy per hour at 1 m from a small source. What is it at 4 m?",
+  "back": "80 ÷ (4 × 4) = 80 ÷ 16 = 5 µGy per hour, using the inverse square law."
+ },
+ {
+  "id": 23,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A barrier is three half value layers thick and the unshielded rate would be 100 µSv per hour. What is the rate behind it?",
+  "back": "Each half value layer halves the rate: 50, 25, then 12.5 µSv per hour."
+ },
+ {
+  "id": 24,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A technologist draws up a technetium-99m dose. Which protection is best, a lead apron or a syringe shield with forceps?",
+  "back": "A syringe shield with forceps, plus short time and distance. A standard apron gives little protection against nuclear medicine gamma photons."
+ },
+ {
+  "id": 25,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Why is acrylic used before lead to shield strong beta emitters?",
+  "back": "Dense metals such as lead make extra X-rays called bremsstrahlung when beta particles hit them, so a low atomic number material is used first."
+ },
+ {
+  "id": 26,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What is a diagnostic reference level (DRL)?",
+  "back": "A dose value for a common examination on a typical sized patient, based on national data. It is a review tool for a department, not a dose limit for a patient."
+ },
+ {
+  "id": 27,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A department's typical dose for an examination is above the national DRL. What should it do?",
+  "back": "Review its practice, such as protocol, collimation and extra views, correct what is excessive, re-measure and record. It should not stop the examination or blame one patient."
+ },
+ {
+  "id": 28,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A patient of childbearing potential may be pregnant before a pelvic examination. What is the best action?",
+  "back": "Report to the referrer or responsible medical practitioner, who decides whether the examination is still justified, can wait, or can be replaced by ultrasound or MRI."
+ },
+ {
+  "id": 29,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A staff member declares she is pregnant. What is the correct approach to her work?",
+  "back": "She tells her employer, the facility reviews her duties, and the foetal dose is kept to the lower value set by local rules. She is not automatically banned from all radiation work."
+ },
+ {
+  "id": 30,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What is a comforter or carer in radiation protection?",
+  "back": "A person who is not staff and who knowingly and willingly helps in the care or comfort of a patient during an exposure. They are informed, protected and never forced."
+ },
+ {
+  "id": 31,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A mobile X-ray is under way and a relative asks to stay. What is the best first action?",
+  "back": "Explain the radiation risk, offer protective clothing if the person is willing and helping is essential, keep them out of the primary beam and follow facility procedure."
+ },
+ {
+  "id": 32,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A radioactive liquid spills in the preparation room. What is the first thing to do?",
+  "back": "Stop and warn others, then contain the spill with absorbent material from the edges inward while wearing gloves and a coat, and notify the radiation safety officer."
+ },
+ {
+  "id": 33,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What is the minimum number of patient identifiers used to confirm identity before a procedure in Australia?",
+  "back": "At least three, such as full name, date of birth and one more item like the address or record number, checked against the request and wristband."
+ },
+ {
+  "id": 34,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A patient nods yes when you read out their name. Why is this a weak identity check?",
+  "back": "Anxious, hard of hearing or confused patients may agree to anything. Ask them to state their own full name and date of birth instead."
+ },
+ {
+  "id": 35,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A woman of childbearing age is booked for a pelvic CT. What must you ask, and how?",
+  "back": "Ask about the last menstrual period and possible pregnancy, privately and in plain words, and record the answer. Escalate if pregnancy is possible."
+ },
+ {
+  "id": 36,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "The patient may be pregnant and the exam uses ionising radiation. What is the safest first action?",
+  "back": "Pause and discuss with the referrer and supervising practitioner so justification is reviewed. An alternative without ionising radiation may be chosen."
+ },
+ {
+  "id": 37,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "List the four features of valid consent.",
+  "back": "It must be voluntary, informed, specific to the procedure and given by a person with capacity. It can be withdrawn at any time."
+ },
+ {
+  "id": 38,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What does capacity mean when deciding about consent?",
+  "back": "The ability to understand the information, hold it long enough to weigh it up and communicate a choice. It is specific to the decision and the time."
+ },
+ {
+  "id": 39,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A relative says an unsure elderly patient will sign for him. What do you do?",
+  "back": "Stop and assess whether he understands. If not, ask the referrer to arrange a capacity assessment and consent from the person with legal authority."
+ },
+ {
+  "id": 40,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Who should interpret during a consent discussion when the patient speaks little English?",
+  "back": "A qualified interpreter, in person, by phone or by video. Never a child, and a relative is not a safe substitute. Document the use."
+ },
+ {
+  "id": 41,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Which vital sign is often the earliest and most reliable sign of deterioration, but most often not counted?",
+  "back": "The respiratory rate. A rising rate can appear hours before other changes."
+ },
+ {
+  "id": 42,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What is the usual adult resting respiratory rate range and the SpO2 on room air?",
+  "back": "About 12 to 20 breaths per minute, with SpO2 of 95 percent or higher on room air."
+ },
+ {
+  "id": 43,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "An inpatient arriving for a scan is pale and sweaty with a breathing rate of 28 and pulse of 118. What is the best action?",
+  "back": "Stop, stay with the patient, call for help using the local escalation or emergency number and hand over clearly. Do not finish the scan."
+ },
+ {
+  "id": 44,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What is the first-line drug for anaphylaxis and the route?",
+  "back": "Adrenaline given intramuscularly into the outer mid-thigh. Antihistamines and steroids are not a substitute."
+ },
+ {
+  "id": 45,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What is the adrenaline dose for anaphylaxis in an adult and in a child?",
+  "back": "Adults: 0.5 mg (0.5 mL of 1 mg per mL). Children: 0.01 mg per kg. It can be repeated after about five minutes if there is no improvement."
+ },
+ {
+  "id": 46,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A patient has an anaphylactic reaction on the table. Which position is correct?",
+  "back": "Lie them flat, or sit up if breathing is hard, or on the left side if pregnant. Do not let them stand or walk."
+ },
+ {
+  "id": 47,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Give the DRSABCD steps and the CPR ratio.",
+  "back": "Danger, Response, Send for help, Airway, Breathing, CPR, Defibrillation. CPR is 30 compressions to 2 breaths at 100 to 120 compressions per minute."
+ },
+ {
+  "id": 48,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Which precautions apply to every patient, and which are added for infections such as tuberculosis?",
+  "back": "Standard precautions apply to every patient. For tuberculosis add airborne precautions: a P2 or N95 respirator and, where available, a negative pressure room."
+ },
+ {
+  "id": 49,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Which Domain 1 key capability of the Board's Professional capabilities covers medicines?",
+  "back": "Key capability 9, safe and effective use of medicines. It covers knowing the medicine, the law that governs it and your scope of practice."
+ },
+ {
+  "id": 50,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Why are non-ionic iodinated contrast agents preferred for intravascular use?",
+  "back": "They do not split into charged particles in solution and have lower osmolality, so they are better tolerated and less likely to cause side effects."
+ },
+ {
+  "id": 51,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A patient develops a few hives and mild itching after contrast. How is this graded and managed?",
+  "back": "It is a mild reaction. Stay with the patient, reassure, observe, report to the radiologist and document, and advise about delayed reactions."
+ },
+ {
+  "id": 52,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "How do you tell a vasovagal faint from anaphylaxis after an injection?",
+  "back": "A faint gives a slow pulse and pale, sweaty skin. Anaphylaxis gives a fast weak pulse, hives, swelling and breathing difficulty and needs adrenaline."
+ },
+ {
+  "id": 53,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What does eGFR measure and why does it matter before contrast?",
+  "back": "It estimates how well the kidneys filter blood, from blood creatinine. Contrast is cleared by the kidneys, so low eGFR raises the risk of acute kidney injury."
+ },
+ {
+  "id": 54,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "The protocol needs a recent eGFR but there is none on record. What is the best first action?",
+  "back": "Do not start the injection. Report the missing result to the radiologist, who decides whether to check kidney function or change the plan."
+ },
+ {
+  "id": 55,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A protocol gives 350 mgI/mL contrast, 90 mL. How many grams of iodine are injected?",
+  "back": "350 mg/mL × 90 mL = 31,500 mg, which is 31.5 g of iodine."
+ },
+ {
+  "id": 56,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A protocol is 1.5 mL/kg with a maximum of 120 mL at 3 mL/s. How long is the injection for a 70 kg patient?",
+  "back": "Volume is 1.5 × 70 = 105 mL, under the maximum. Time is 105 ÷ 3 = 35 seconds."
+ },
+ {
+  "id": 57,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "During a power injection the patient reports pain and the forearm swells. What is the first action?",
+  "back": "Stop the injection at once, then tell the radiologist, elevate the limb, assess circulation and document. Do not finish the run."
+ },
+ {
+  "id": 58,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What is nephrogenic systemic fibrosis (NSF)?",
+  "back": "A rare, serious thickening of skin and organs seen in people with severe kidney impairment who received older, less stable gadolinium agents."
+ },
+ {
+  "id": 59,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "When should barium sulfate be avoided?",
+  "back": "When perforation is suspected, because leaked barium causes serious inflammation, and when there is a risk of aspiration into the lungs. Water-soluble contrast is used instead."
+ },
+ {
+  "id": 60,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Which six observations must a medical radiation practitioner know normal values for?",
+  "back": "Respiratory rate, oxygen saturation, heart rate, blood pressure, temperature and level of consciousness."
+ },
+ {
+  "id": 61,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What is the first-line medicine for anaphylaxis and where is it given?",
+  "back": "Adrenaline, into the muscle of the outer middle thigh, within scope and local protocol. Repeat after about 5 minutes if there is no improvement."
+ },
+ {
+  "id": 62,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What adrenaline dose per kilogram is used for a child with anaphylaxis, and what is it for 20 kg?",
+  "back": "0.01 mg/kg, so 0.2 mg for 20 kg, which is 0.2 mL of a 1 mg/mL ampoule."
+ },
+ {
+  "id": 63,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Why should an anaphylaxis patient not be stood upright?",
+  "back": "A sudden upright position can cause collapse. Lay the patient flat, or sit up only if breathing is the main problem."
+ },
+ {
+  "id": 64,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A sedated patient is lying in a quiet room. What must you keep doing?",
+  "back": "Observe airway, breathing and level of consciousness, keep monitoring available and call for help early. Do not leave them unobserved."
+ },
+ {
+  "id": 65,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What is anatomical position, and why does it matter when describing left and right?",
+  "back": "The person stands upright facing forward with arms by the sides and palms forward. Left and right always mean the patient's own left and right."
+ },
+ {
+  "id": 66,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Which plane divides the body into front and back?",
+  "back": "The coronal plane. The sagittal plane divides left from right and the axial (transverse) plane divides upper from lower."
+ },
+ {
+  "id": 67,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "On an axial CT slice, which side of the screen shows the patient's right?",
+  "back": "The left side of the screen. Axial images are viewed as if standing at the patient's feet looking towards the head."
+ },
+ {
+  "id": 68,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What does the word part '-ectomy' mean, and what does 'brady-' mean?",
+  "back": "'-ectomy' means surgical removal and 'brady-' means slow. Breaking a word into parts usually reveals its meaning."
+ },
+ {
+  "id": 69,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A patient on an erect chest image has a thin lung edge with no lung markings beyond it and is becoming very breathless with falling blood pressure. What is the best action?",
+  "back": "Suspect a tension pneumothorax and alert the medical team at once. Do not wait for a formal report."
+ },
+ {
+  "id": 70,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What does a pleural effusion look like on an erect chest image?",
+  "back": "Fluid blunts the costophrenic angle at the bottom of the lung and may show a curved fluid line. Fluid settles with gravity."
+ },
+ {
+  "id": 71,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A patient has sudden weakness of one arm and slurred speech. Which imaging is usually done first for a suspected stroke, and why?",
+  "back": "A non-contrast CT of the brain, to rule out bleeding before treatment is chosen. Time matters because brain cells are lost every minute."
+ },
+ {
+  "id": 72,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What is the difference between a benign and a malignant tumour?",
+  "back": "A benign tumour stays in one place and does not invade nearby tissue. A malignant tumour invades nearby tissue and can spread to distant sites."
+ },
+ {
+  "id": 73,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "What do the letters T, N and M stand for in TNM staging?",
+  "back": "T is the size and local extent of the primary tumour, N is lymph node involvement and M is distant metastasis."
+ },
+ {
+  "id": 74,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A report says a tumour is grade 3 and stage 1. What is the difference between grade and stage?",
+  "back": "Grade describes how abnormal the cells look under the microscope. Stage describes how far the disease has spread."
+ },
+ {
+  "id": 75,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Name the three main ways cancer spreads to other parts of the body.",
+  "back": "Through the lymphatic system to lymph nodes, through the blood to distant organs, and by direct local invasion."
+ },
+ {
+  "id": 76,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Why are fast-dividing tissues such as bone marrow and the gut lining affected earliest by radiation?",
+  "back": "Cells that divide often and are less specialised are more radiosensitive, so damage shows up sooner in these tissues."
+ },
+ {
+  "id": 77,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A patient with a low eGFR is booked for a contrast CT. What should the practitioner do?",
+  "back": "Follow the local protocol and refer the result to the radiologist or prescriber before giving contrast. Do not decide alone."
+ },
+ {
+  "id": 78,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A patient scheduled for an FDG PET has a high blood glucose. Why does this matter?",
+  "back": "High blood glucose competes with the FDG tracer and reduces tumour uptake, so the result is checked before injection and the team is told."
+ },
+ {
+  "id": 79,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "Why are children more at risk from radiation than adults, and what is the best practice?",
+  "back": "Their cells divide rapidly and they have more years ahead for effects to appear. Use the lowest dose that gives an adequate image, with tight collimation and immobilisation."
+ },
+ {
+  "id": 80,
+  "domain": "medical_radiation_practitioner_core",
+  "front": "A patient in late pregnancy lying flat on her back says she feels faint. What is the safest action?",
+  "back": "Tilt her onto her left side with support. The enlarged uterus can press on the inferior vena cava and reduce blood returning to the heart."
+ },
+ {
+  "id": 81,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "What does the Health Practitioner Regulation National Law do for medical radiation practice?",
+  "back": "It sets up the national registration scheme, including the Medical Radiation Practice Board of Australia. Each state and territory has passed its own version, so rules are close to the same everywhere."
+ },
+ {
+  "id": 82,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "Which body decides registration standards and conduct outcomes: the Board or Ahpra?",
+  "back": "The Board decides and sets standards. Ahpra is the agency that runs the register, receives notifications and carries out investigations for the Board."
+ },
+ {
+  "id": 83,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "Does registration with the Board replace a state licence to use ionising radiation?",
+  "back": "No. State and territory radiation regulators license radiation sources and users under separate legislation. You usually need both."
+ },
+ {
+  "id": 84,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "What is a condition on registration?",
+  "back": "A limit on how you practise, such as working only under supervision. You must follow every condition exactly, and practising outside one is a serious breach."
+ },
+ {
+  "id": 85,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "A manager asks a radiographer registered only in diagnostic radiography to cover a nuclear medicine shift. What should the radiographer do?",
+  "back": "Decline and explain that their registration division does not cover nuclear medicine practice. Short staffing does not change the legal limit."
+ },
+ {
+  "id": 86,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "Which three standard questions test whether a task is within your scope?",
+  "back": "Am I educated or trained to do it, am I competent to do it safely today, and is it allowed in this workplace and under the law? Any no means do not do it alone."
+ },
+ {
+  "id": 87,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "If you delegate a task to a trainee, who stays accountable for the decision to delegate?",
+  "back": "You do. You must be sure the person is competent, the task is suitable and you give the right level of supervision."
+ },
+ {
+  "id": 88,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "Which patient needs the most direct supervision from a student: an anxious paediatric patient or a routine adult repeat?",
+  "back": "The anxious paediatric patient. The higher the risk and the lower the experience, the more direct the supervision must be."
+ },
+ {
+  "id": 89,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "A trainee says a supervisor already checked a plan change but there is no record. What should the therapist do before signing it off?",
+  "back": "Hold the change until the check is documented. Accountability stays with the person who signs, not with a verbal comment."
+ },
+ {
+  "id": 90,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "What is the legal status of the Board's Code of conduct?",
+  "back": "It is not a law on its own, but it can be used in a disciplinary matter as evidence of proper professional behaviour."
+ },
+ {
+  "id": 91,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "Why does the practitioner carry the responsibility for keeping professional boundaries?",
+  "back": "The therapeutic relationship is unequal, since the patient is often unwell, undressed and dependent. A patient saying they are comfortable does not remove the duty."
+ },
+ {
+  "id": 92,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "How do boundary problems usually begin?",
+  "back": "In small steps, such as sharing too much personal information, giving out a private phone number, meeting outside work or favouring one patient."
+ },
+ {
+  "id": 93,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "Is a sexual or romantic relationship with a current patient ever acceptable?",
+  "back": "No, never. A relationship with a former patient is also a serious concern if knowledge of their vulnerability could be used."
+ },
+ {
+  "id": 94,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "What is a conflict of interest?",
+  "back": "A personal, professional or financial interest that could influence your judgement, such as treating a relative. Declare it and manage it openly."
+ },
+ {
+  "id": 95,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "A radiographer wants to post a scan on social media with no name attached. What is the problem?",
+  "back": "Unique features in an image can still identify the patient. Posting anything that could identify a patient breaks confidentiality."
+ },
+ {
+  "id": 96,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "What are the four parts of valid informed consent?",
+  "back": "The person has capacity, gives consent voluntarily, has enough information about purpose, risks and alternatives, and the consent covers the specific procedure."
+ },
+ {
+  "id": 97,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "Can a patient withdraw consent after a procedure has started?",
+  "back": "Yes, at any time. You stop when consent is clearly withdrawn, unless stopping would create an immediate danger that you must manage safely."
+ },
+ {
+  "id": 98,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "What four abilities make up decision-making capacity?",
+  "back": "Understanding the information, remembering it long enough to decide, weighing up the choices and communicating a decision."
+ },
+ {
+  "id": 99,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "Is a person assumed to have capacity?",
+  "back": "Yes. Capacity is presumed unless there is good reason to doubt it, and a disability or an unwise choice does not by itself mean it is missing."
+ },
+ {
+  "id": 100,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "Is capacity the same for every decision a person makes?",
+  "back": "No. It is specific to the decision and the time. A person may consent to a chest X-ray but not to a complex treatment plan."
+ },
+ {
+  "id": 101,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "An elderly patient with dementia refuses a needle but her daughter says to proceed. What is the best first action?",
+  "back": "Assess capacity for this decision, check whether the daughter is a legally recognised substitute decision-maker, and tell the senior clinician. Do not override the patient on a relative's word."
+ },
+ {
+  "id": 102,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "Who can be a substitute decision-maker for a patient who lacks capacity?",
+  "back": "It depends on state or territory law. Examples are a guardian, an enduring guardian, an attorney under an enduring power of attorney for health, or a person in a legal order of relationship."
+ },
+ {
+  "id": 103,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "What is an advance care directive?",
+  "back": "A document or statement setting out a person's future health care wishes for when they lose capacity. A valid, applicable directive must be followed."
+ },
+ {
+  "id": 104,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "You are unsure whether an advance care directive applies to the current situation. What should you do?",
+  "back": "Ask the senior clinician on duty, who can seek legal advice. Check it is current, applies to this situation and is presented by someone entitled to do so."
+ },
+ {
+  "id": 105,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "When may you share health information without the patient's consent?",
+  "back": "When the law requires or permits it, for example a court order, a mandatory child protection report, or a serious and imminent threat to someone's life, health or safety."
+ },
+ {
+  "id": 106,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "A patient's employer phones to confirm an employee attended for an X-ray. What do you do?",
+  "back": "Neither confirm nor deny. Even attendance is health information, so refer the caller to the patient."
+ },
+ {
+  "id": 107,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "A solicitor phones asking for a patient's results. What is the best response?",
+  "back": "Do not give information over the phone. Follow the workplace process and refer the request to the person responsible for releasing records."
+ },
+ {
+  "id": 108,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "Is looking up a neighbour's record out of curiosity a breach if you tell nobody?",
+  "back": "Yes. It is a serious privacy breach, and health services track who opens records."
+ },
+ {
+  "id": 109,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "What does the Notifiable Data Breaches scheme require?",
+  "back": "Organisations must notify affected people and the Office of the Australian Information Commissioner when a breach is likely to cause serious harm. Report suspected breaches to your privacy officer."
+ },
+ {
+  "id": 110,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "What are the four grounds for a mandatory notification about a practitioner?",
+  "back": "Practising while intoxicated, sexual misconduct, risk of substantial harm from an impairment, and risk of harm from a significant departure from accepted professional standards."
+ },
+ {
+  "id": 111,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "What threshold triggers a mandatory notification?",
+  "back": "Forming a reasonable belief based on reasonable grounds. It is more than a rumour but you do not need proof."
+ },
+ {
+  "id": 112,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "Is having an impairment, by itself, a ground for a mandatory notification?",
+  "back": "No. The duty is triggered when the impairment places the public at risk of substantial harm."
+ },
+ {
+  "id": 113,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "A technologist smells alcohol on a colleague about to start an anaesthetic list. What is the first priority, then the next step?",
+  "back": "First keep the colleague out of patient care and tell the senior person in charge. Then make a mandatory notification, because a reasonable belief of practising while intoxicated has formed."
+ },
+ {
+  "id": 114,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "What is a voluntary notification?",
+  "back": "A report about a concern that does not meet the mandatory grounds, such as poor communication or a breach of the Code. Anyone can make one."
+ },
+ {
+  "id": 115,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "Are people who notify honestly and in good faith protected?",
+  "back": "Yes. The National Law protects them from civil, criminal and administrative liability."
+ },
+ {
+  "id": 116,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "What are the four things a patient must show to succeed in negligence?",
+  "back": "A duty of care was owed, the standard of care was not met, the breach caused the harm, and the harm was a real loss."
+ },
+ {
+  "id": 117,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "What standard of care is applied in negligence?",
+  "back": "What a reasonable practitioner of the same kind, with the same training, would have done."
+ },
+ {
+  "id": 118,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "What is open disclosure?",
+  "back": "A prompt, honest and compassionate conversation with the patient and family about what happened, with regret expressed, what is known, what will prevent a repeat and what support is offered."
+ },
+ {
+  "id": 119,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "A radiographer realises the wrong limb was imaged. What is the best action?",
+  "back": "Tell the supervisor straight away, report the incident, take part in open disclosure and arrange any repeat appropriately. Do not quietly repeat the correct side."
+ },
+ {
+  "id": 120,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "Which Australian framework guides open disclosure?",
+  "back": "The Australian Open Disclosure Framework from the Australian Commission on Safety and Quality in Health Care."
+ },
+ {
+  "id": 121,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "Name the four principles of biomedical ethics in the Professional capabilities.",
+  "back": "Autonomy, beneficence, non-maleficence and justice, from Beauchamp and Childress."
+ },
+ {
+  "id": 122,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "A capable adult refuses a treatment you believe would help. Which principles clash and what do you do?",
+  "back": "Autonomy clashes with beneficence. Make sure the refusal is informed, document it and keep the door open to further care."
+ },
+ {
+  "id": 123,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "What does cultural safety mean for Aboriginal and Torres Strait Islander patients?",
+  "back": "Care that they experience as safe, defined by them and not by the practitioner. It goes beyond cultural awareness."
+ },
+ {
+  "id": 124,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "For an important consent discussion with a patient who speaks little English, who should interpret?",
+  "back": "An accredited interpreter, not a family member."
+ },
+ {
+  "id": 125,
+  "domain": "professional_and_ethical_practitioner",
+  "front": "You have a reasonable concern about a child's safety. What is the best action?",
+  "back": "Follow your workplace child protection procedure and report to the right authority or to the senior person who will do so. Mandatory reporting rules differ by state and territory."
+ },
+ {
+  "id": 126,
+  "domain": "communicator_and_collaborator",
+  "front": "What is health literacy?",
+  "back": "A person's ability to find, understand and use health information. It is not the same as intelligence, and stress can lower it."
+ },
+ {
+  "id": 127,
+  "domain": "communicator_and_collaborator",
+  "front": "What is teach-back and why is it used?",
+  "back": "You ask the patient to explain the information in their own words. It checks understanding, and a gap means your explanation needs work."
+ },
+ {
+  "id": 128,
+  "domain": "communicator_and_collaborator",
+  "front": "A patient nods during your explanation of a procedure. What is the best way to check they understood?",
+  "back": "Use teach-back: ask them to describe in their own words what will happen. A nod or a yes to 'Do you understand?' is not reliable."
+ },
+ {
+  "id": 129,
+  "domain": "communicator_and_collaborator",
+  "front": "What is consent, according to the Board's explanatory notes?",
+  "back": "A person's voluntary decision about healthcare made with knowledge and understanding of the benefits and risks involved."
+ },
+ {
+  "id": 130,
+  "domain": "communicator_and_collaborator",
+  "front": "During treatment a patient says 'stop'. What is the safest action?",
+  "back": "Pause and talk with the patient. Consent can be withdrawn at any time, so you do not finish the last few seconds."
+ },
+ {
+  "id": 131,
+  "domain": "communicator_and_collaborator",
+  "front": "A patient has signed the consent form but looks confused about the procedure. What should you do?",
+  "back": "Explain again in plain language and check with teach-back. A signature without understanding is not valid consent."
+ },
+ {
+  "id": 132,
+  "domain": "communicator_and_collaborator",
+  "front": "Why should you keep communicating with a patient during an examination or treatment?",
+  "back": "To confirm ongoing consent, reassure the patient and notice distress or non-verbal cues early."
+ },
+ {
+  "id": 133,
+  "domain": "communicator_and_collaborator",
+  "front": "What is a CALD patient?",
+  "back": "A person from a culturally and linguistically diverse background, whose cultural identity or language differs from the main culture of the setting."
+ },
+ {
+  "id": 134,
+  "domain": "communicator_and_collaborator",
+  "front": "When should you use a qualified interpreter?",
+  "back": "Whenever a patient's first language is not English and communication may be limited, including for consent and sensitive questions."
+ },
+ {
+  "id": 135,
+  "domain": "communicator_and_collaborator",
+  "front": "A family member offers to interpret for an elderly patient. What is the best action?",
+  "back": "Politely arrange a qualified interpreter, because relatives may leave out or soften information and privacy and accuracy are at risk."
+ },
+ {
+  "id": 136,
+  "domain": "communicator_and_collaborator",
+  "front": "Can a child be used to interpret for a parent?",
+  "back": "No. A child must never interpret for a parent or relative in a health setting."
+ },
+ {
+  "id": 137,
+  "domain": "communicator_and_collaborator",
+  "front": "In what situation might you use the best available means of communication instead of a qualified interpreter?",
+  "back": "A genuine emergency where no interpreter is available and delay would cause harm. You document what was done."
+ },
+ {
+  "id": 138,
+  "domain": "communicator_and_collaborator",
+  "front": "What should be recorded in the notes when an interpreter is used?",
+  "back": "That an interpreter was used, their name or ID and how they attended (in person, phone or video)."
+ },
+ {
+  "id": 139,
+  "domain": "communicator_and_collaborator",
+  "front": "A patient asks you 'Is it cancer?' after a scan. What is the best response?",
+  "back": "Be honest and kind: acknowledge the worry, do not guess a diagnosis, and explain who will give the results and when."
+ },
+ {
+  "id": 140,
+  "domain": "communicator_and_collaborator",
+  "front": "Why is 'I'm sure it's nothing' a poor reply to a worried patient awaiting results?",
+  "back": "It is false reassurance and may be wrong. Staying inside your scope while being warm and clear about who will explain is better."
+ },
+ {
+  "id": 141,
+  "domain": "communicator_and_collaborator",
+  "front": "What does cultural safety mean?",
+  "back": "A person feels safe and respected in receiving care, free of racism and discrimination, and the patient decides whether care was culturally safe."
+ },
+ {
+  "id": 142,
+  "domain": "communicator_and_collaborator",
+  "front": "How does cultural safety differ from cultural competence?",
+  "back": "Cultural competence is knowing and applying cultural knowledge. Cultural safety adds reflection on the practitioner's own bias and power, judged by the patient."
+ },
+ {
+  "id": 143,
+  "domain": "communicator_and_collaborator",
+  "front": "Put these in order from least to most advanced: cultural safety, cultural awareness, cultural competence, cultural sensitivity.",
+  "back": "Cultural awareness, cultural sensitivity, cultural competence, then cultural safety."
+ },
+ {
+  "id": 144,
+  "domain": "communicator_and_collaborator",
+  "front": "According to the Board's Domain 3, what must practitioners reflect on about themselves?",
+  "back": "Their own culture and how it shapes their perceptions of and interactions with others, including the impact of systemic racism and bias."
+ },
+ {
+  "id": 145,
+  "domain": "communicator_and_collaborator",
+  "front": "What historical events help explain mistrust of health services among some Aboriginal and Torres Strait Islander Peoples?",
+  "back": "Dispossession of land, forced removal of children (the Stolen Generations) and past health care that was harmful or disrespectful."
+ },
+ {
+  "id": 146,
+  "domain": "communicator_and_collaborator",
+  "front": "Why can treatment far from home be hard for an Aboriginal or Torres Strait Islander patient?",
+  "back": "Connection to Country, family and community is central to wellbeing, so being away for weeks of treatment can be a heavy burden."
+ },
+ {
+  "id": 147,
+  "domain": "communicator_and_collaborator",
+  "front": "An Aboriginal patient misses a second treatment appointment. What is the best action?",
+  "back": "Ask what the barrier is (transport, accommodation, family obligations, fear), involve the Aboriginal Liaison Officer and plan together, rather than recording non-compliance."
+ },
+ {
+  "id": 148,
+  "domain": "communicator_and_collaborator",
+  "front": "What can silence from a patient mean in some cultural settings?",
+  "back": "It may mean the person is thinking, not agreeing or refusing. Allow time rather than filling the gap."
+ },
+ {
+  "id": 149,
+  "domain": "communicator_and_collaborator",
+  "front": "Who can support cultural safety and communication for Aboriginal and Torres Strait Islander patients in hospital?",
+  "back": "Aboriginal Liaison Officers, Aboriginal Health Workers and Aboriginal Health Practitioners, involved early with the patient's agreement."
+ },
+ {
+  "id": 150,
+  "domain": "communicator_and_collaborator",
+  "front": "A female patient prefers a female practitioner for a sensitive examination. What is the best response?",
+  "back": "Meet the request where reasonably possible or offer the earliest alternative, while protecting privacy and dignity with a gown or drape."
+ },
+ {
+  "id": 151,
+  "domain": "communicator_and_collaborator",
+  "front": "A transgender patient tells you their name and pronouns. What do you do?",
+  "back": "Use them, and correct yourself if you slip. Ask only for information needed for safe care, privately and with a clear reason."
+ },
+ {
+  "id": 152,
+  "domain": "communicator_and_collaborator",
+  "front": "A patient with a hearing impairment arrives with a support person. Who do you speak to?",
+  "back": "The patient, with adjustments such as a hearing loop, Auslan interpreter or written information, not only the support person."
+ },
+ {
+  "id": 153,
+  "domain": "communicator_and_collaborator",
+  "front": "What are the principles of trauma-informed care?",
+  "back": "Safety, trust, choice, collaboration and empowerment."
+ },
+ {
+  "id": 154,
+  "domain": "communicator_and_collaborator",
+  "front": "A patient freezes and becomes distressed during positioning. What is the best action?",
+  "back": "Pause and ask what would help. Do not push on, and do not ask for details of past trauma unless needed for care."
+ },
+ {
+  "id": 155,
+  "domain": "communicator_and_collaborator",
+  "front": "What does ISBAR stand for?",
+  "back": "Identify, Situation, Background, Assessment, Request or Recommendation."
+ },
+ {
+  "id": 156,
+  "domain": "communicator_and_collaborator",
+  "front": "In ISBAR, what belongs under Background?",
+  "back": "Relevant history, allergies, medicines, cannulas, infection status, mobility and language needs."
+ },
+ {
+  "id": 157,
+  "domain": "communicator_and_collaborator",
+  "front": "What is the minimum number of approved patient identifiers expected at handover?",
+  "back": "At least three approved patient identifiers."
+ },
+ {
+  "id": 158,
+  "domain": "communicator_and_collaborator",
+  "front": "Which NSQHS Standard covers clinical handover and correct patient identification?",
+  "back": "The Communicating for Safety standard (Standard 6)."
+ },
+ {
+  "id": 159,
+  "domain": "communicator_and_collaborator",
+  "front": "A patient has a reaction after contrast and you call the ward. What is the best way to structure the call?",
+  "back": "Use ISBAR: identify yourself and the patient, state the situation, give allergy and history, give your assessment and state exactly what you need."
+ },
+ {
+  "id": 160,
+  "domain": "communicator_and_collaborator",
+  "front": "You see a risk that a senior colleague seems to ignore. What is the best action?",
+  "back": "Speak up clearly, state your concern and what you need, and escalate up the chain if it is not addressed. Staying silent is the wrong choice."
+ },
+ {
+  "id": 161,
+  "domain": "communicator_and_collaborator",
+  "front": "What does CUS stand for in escalation language?",
+  "back": "I am Concerned, I am Uncomfortable, this is a Safety issue."
+ },
+ {
+  "id": 162,
+  "domain": "communicator_and_collaborator",
+  "front": "You delegate a task to a student. Who remains accountable for the patient?",
+  "back": "The supervising practitioner. You delegate only what the person is trained and authorised to do and you check the result."
+ },
+ {
+  "id": 163,
+  "domain": "communicator_and_collaborator",
+  "front": "A student has not yet been signed off to perform a task. What should you do?",
+  "back": "Supervise them directly or do the task yourself. Do not leave them alone with the patient for it."
+ },
+ {
+  "id": 164,
+  "domain": "communicator_and_collaborator",
+  "front": "You made an error in a clinical note. What is the correct way to fix it?",
+  "back": "Correct it by the service's process so the original stays visible, and add a dated correction. Never delete or alter the original."
+ },
+ {
+  "id": 165,
+  "domain": "communicator_and_collaborator",
+  "front": "What makes good documentation?",
+  "back": "It is accurate, factual, timely, clear, identifiable, complete and confidential, and it records consent and interpreter use."
+ },
+ {
+  "id": 166,
+  "domain": "lifelong_learner",
+  "front": "What does evidence-based practice join together?",
+  "back": "The best available research evidence, the practitioner's clinical expertise and context, and the patient's values and preferences."
+ },
+ {
+  "id": 167,
+  "domain": "lifelong_learner",
+  "front": "Which study designs sit highest in the evidence hierarchy for treatment questions?",
+  "back": "Systematic reviews and meta-analyses, then randomised controlled trials. Cohort, case-control, case reports and expert opinion sit lower."
+ },
+ {
+  "id": 168,
+  "domain": "lifelong_learner",
+  "front": "In a test, 90 of 100 people with disease test positive. What is the sensitivity?",
+  "back": "Sensitivity = true positives ÷ all with disease = 90 ÷ 100 = 90%. The test rarely misses disease."
+ },
+ {
+  "id": 169,
+  "domain": "lifelong_learner",
+  "front": "Standard care gives a severe skin reaction in 8 of 100 patients and a new routine in 4 of 100. What is the relative risk?",
+  "back": "Relative risk = 0.04 ÷ 0.08 = 0.5. The new routine halves the risk, an absolute difference of 4 in every 100."
+ },
+ {
+  "id": 170,
+  "domain": "lifelong_learner",
+  "front": "A study reports a relative risk with a confidence interval that includes 1. What can you conclude?",
+  "back": "The study has not shown a clear difference between the groups. A relative risk of 1 means no difference."
+ },
+ {
+  "id": 171,
+  "domain": "lifelong_learner",
+  "front": "A new study has a small p-value. Does that prove the treatment gives a large benefit?",
+  "back": "No. A small p-value only suggests chance alone is unlikely. It does not show the effect is large or important."
+ },
+ {
+  "id": 172,
+  "domain": "lifelong_learner",
+  "front": "Which kind of test is best for screening, and which for confirming a diagnosis before major treatment?",
+  "back": "Screening needs high sensitivity so few cases are missed. Confirming a diagnosis needs high specificity so healthy people are not treated by mistake."
+ },
+ {
+  "id": 173,
+  "domain": "lifelong_learner",
+  "front": "A department checks whether patient identification was recorded for every examination in a month. Is this research?",
+  "back": "No. Measuring your own service against its existing standard is audit or quality improvement. Testing something new on patients or producing generalisable findings is research needing HREC review."
+ },
+ {
+  "id": 174,
+  "domain": "lifelong_learner",
+  "front": "What are the four steps of the quality improvement cycle, in order?",
+  "back": "Plan, do, study, act. Identify the problem, try a small change, measure the result, then adopt, adjust or drop the change and repeat."
+ },
+ {
+  "id": 175,
+  "domain": "lifelong_learner",
+  "front": "You are rostered to a study you have only watched once. What is the safest action?",
+  "back": "Tell the senior technologist or supervisor you are not signed off, ask for supervision or reassignment, and arrange training. Do not proceed quietly or refuse without telling anyone."
+ },
+ {
+  "id": 176,
+  "domain": "lifelong_learner",
+  "front": "Is CPD a registration duty, and what must it include?",
+  "back": "Yes. It must be relevant to your scope, planned, recorded as evidence for audit, and include ongoing cultural learning. Check the Board's current standard for the hours."
+ },
+ {
+  "id": 177,
+  "domain": "lifelong_learner",
+  "front": "Describe good feedback to a student after a procedure.",
+  "back": "Timely, specific, balanced, focused on behaviour and not the person, and followed by a plan for the next step."
+ },
+ {
+  "id": 178,
+  "domain": "lifelong_learner",
+  "front": "A student is about to perform a procedure beyond their level. Who stays responsible, and what should happen?",
+  "back": "The supervising practitioner stays responsible for patient safety. Supervision must match the learner's level, and the patient must be told a student is involved."
+ },
+ {
+  "id": 179,
+  "domain": "lifelong_learner",
+  "front": "An AI tool auto-draws a radiotherapy contour that does not match the anatomy. What do you do?",
+  "back": "Do not use it. Check it against the anatomy, correct or redo it, and report the problem through the incident system. AI is decision support, not a decision."
+ },
+ {
+  "id": 180,
+  "domain": "lifelong_learner",
+  "front": "What does random allocation do to make a trial more trustworthy?",
+  "back": "It spreads known and unknown differences (confounders) evenly between groups, so a difference in outcome is more likely due to the treatment."
+ },
+ {
+  "id": 181,
+  "domain": "safety_quality_and_risk_management",
+  "front": "How many key capabilities does Domain 5 of the Board's professional capabilities contain, and what is its theme?",
+  "back": "Four: safe radiation practice, patient safety, quality assurance, and a safe workplace. Its theme is protecting patients and others from harm."
+ },
+ {
+  "id": 182,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What is a near miss in healthcare safety?",
+  "back": "An event that could have caused harm but was caught before it reached the patient, such as spotting a wrong name on a request before the exposure."
+ },
+ {
+  "id": 183,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What is a sentinel event?",
+  "back": "A rare, serious event causing death or severe harm that is on the national list kept by the ACSQHC. Some services call a preventable one a never event."
+ },
+ {
+  "id": 184,
+  "domain": "safety_quality_and_risk_management",
+  "front": "A wrong-patient mix-up happens at handover. Which NSQHS Standard is it mainly about?",
+  "back": "Communicating for Safety. Handover and patient identification failures sit under this standard."
+ },
+ {
+  "id": 185,
+  "domain": "safety_quality_and_risk_management",
+  "front": "Name the eight NSQHS Standards.",
+  "back": "Clinical Governance, Partnering with Consumers, Preventing and Controlling Healthcare-Associated Infection, Medication Safety, Comprehensive Care, Communicating for Safety, Blood Management, and Recognising and Responding to Acute Deterioration."
+ },
+ {
+  "id": 186,
+  "domain": "safety_quality_and_risk_management",
+  "front": "A patient has an unrecognised contrast reaction. Which NSQHS Standard is most relevant?",
+  "back": "Recognising and Responding to Acute Deterioration."
+ },
+ {
+  "id": 187,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What does root cause analysis ask?",
+  "back": "Why a serious event happened, not who to blame. It usually finds system causes and leads to system fixes."
+ },
+ {
+  "id": 188,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What are the elements of open disclosure?",
+  "back": "Express regret, give the facts as known, explain what is being done, and describe what will be done to prevent it happening again."
+ },
+ {
+  "id": 189,
+  "domain": "safety_quality_and_risk_management",
+  "front": "You notice a mistake happened on a patient. What is your first step after making them safe?",
+  "back": "Report it through the incident system and tell your supervisor so open disclosure and review are done properly."
+ },
+ {
+  "id": 190,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What is the idea behind a Just Culture in safety reporting?",
+  "back": "Honest mistakes and system faults lead to learning and support, while reckless shortcuts are treated differently, so staff feel safe to report."
+ },
+ {
+  "id": 191,
+  "domain": "safety_quality_and_risk_management",
+  "front": "You skipped checking the wristband but the patient's name and date of birth matched. No harm occurred. What should you do?",
+  "back": "Report it as an incident or near miss and tell your supervisor, because the process failed even though no harm resulted."
+ },
+ {
+  "id": 192,
+  "domain": "safety_quality_and_risk_management",
+  "front": "When must a practitioner make a mandatory notification about another registered health practitioner?",
+  "back": "When they form a reasonable belief the person has placed the public at risk of substantial harm, for example through impairment, intoxicated practice, a significant departure from professional standards or sexual misconduct."
+ },
+ {
+  "id": 193,
+  "domain": "safety_quality_and_risk_management",
+  "front": "Telling your manager about a colleague's unsafe practice has been done. Does the mandatory notification duty end?",
+  "back": "No. The legal duty to notify under the National Law remains if the grounds are met, even though a manager has been told."
+ },
+ {
+  "id": 194,
+  "domain": "safety_quality_and_risk_management",
+  "front": "How is a risk score calculated in a risk matrix?",
+  "back": "Likelihood × consequence."
+ },
+ {
+  "id": 195,
+  "domain": "safety_quality_and_risk_management",
+  "front": "A hazard has likelihood 3 and consequence 4. What is the risk score?",
+  "back": "3 × 4 = 12."
+ },
+ {
+  "id": 196,
+  "domain": "safety_quality_and_risk_management",
+  "front": "List the hierarchy of controls from most to least effective.",
+  "back": "Eliminate, substitute, engineering controls, administrative controls, then personal protective equipment."
+ },
+ {
+  "id": 197,
+  "domain": "safety_quality_and_risk_management",
+  "front": "A stockroom floor is often wet and slippery. Which control is higher in the hierarchy: fixing the leak or putting up a warning sign?",
+  "back": "Fixing the leak. That is eliminating the hazard, while a sign is only an administrative control."
+ },
+ {
+  "id": 198,
+  "domain": "safety_quality_and_risk_management",
+  "front": "Which controls does the Board state must be included for radiation protection?",
+  "back": "Time, distance and patient shielding."
+ },
+ {
+  "id": 199,
+  "domain": "safety_quality_and_risk_management",
+  "front": "A source gives 8 µSv/h at 1 m. What is the dose rate at 2 m?",
+  "back": "8 ÷ 2² = 8 ÷ 4 = 2 µSv/h, by the inverse square law."
+ },
+ {
+  "id": 200,
+  "domain": "safety_quality_and_risk_management",
+  "front": "A source gives 8 µSv/h at 1 m. What is the dose rate at 4 m?",
+  "back": "8 ÷ 4² = 8 ÷ 16 = 0.5 µSv/h."
+ },
+ {
+  "id": 201,
+  "domain": "safety_quality_and_risk_management",
+  "front": "At 6 µSv/h, what dose is received in 15 minutes?",
+  "back": "15 minutes is 0.25 h, so 6 × 0.25 = 1.5 µSv."
+ },
+ {
+  "id": 202,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What do justification, limitation and optimisation mean?",
+  "back": "Justification: the exposure does more good than harm. Limitation: risk is kept within acceptable limits. Optimisation: exposure is as low as reasonably achievable (ALARA)."
+ },
+ {
+  "id": 203,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What is the occupational dose limit used in Australia?",
+  "back": "20 mSv per year averaged over five years, with no more than 50 mSv in any single year."
+ },
+ {
+  "id": 204,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What is the annual dose limit for members of the public?",
+  "back": "1 mSv per year."
+ },
+ {
+  "id": 205,
+  "domain": "safety_quality_and_risk_management",
+  "front": "Do dose limits apply to a patient having a justified medical exposure?",
+  "back": "No. Patients are protected through justification, optimisation and diagnostic reference levels instead."
+ },
+ {
+  "id": 206,
+  "domain": "safety_quality_and_risk_management",
+  "front": "Which agency publishes the Radiation Protection Series, including the code for the medical use of radiation?",
+  "back": "The Australian Radiation Protection and Nuclear Safety Agency (ARPANSA)."
+ },
+ {
+  "id": 207,
+  "domain": "safety_quality_and_risk_management",
+  "front": "Why might the radiation regulator and forms differ if you move interstate?",
+  "back": "Radiation safety law is made by states and territories, so regulators and some requirements differ between jurisdictions."
+ },
+ {
+  "id": 208,
+  "domain": "safety_quality_and_risk_management",
+  "front": "A request seems to be for the wrong side or an unnecessary repeat. What should you do?",
+  "back": "Pause and contact the referrer to clarify before performing it."
+ },
+ {
+  "id": 209,
+  "domain": "safety_quality_and_risk_management",
+  "front": "Who should advise before you change radiation dose settings away from protocol?",
+  "back": "A qualified expert such as the radiation safety officer. Do not change settings on your own."
+ },
+ {
+  "id": 210,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What is the minimum number of patient identifiers the Board expects?",
+  "back": "At least three recognised identifiers, such as full name, date of birth and record number."
+ },
+ {
+  "id": 211,
+  "domain": "safety_quality_and_risk_management",
+  "front": "Why should you ask the patient to state their name rather than read it out and ask 'is that you'?",
+  "back": "A confused or anxious patient may agree to the wrong name. Ask them to state name and date of birth, then compare with request and wristband."
+ },
+ {
+  "id": 212,
+  "domain": "safety_quality_and_risk_management",
+  "front": "How do you identify an unconscious patient?",
+  "back": "Use the wristband and the transferring staff member or carer, and follow the local identification procedure."
+ },
+ {
+  "id": 213,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What is a time-out?",
+  "back": "A deliberate pause just before a procedure or treatment where the team confirms patient, procedure, site and side together."
+ },
+ {
+  "id": 214,
+  "domain": "safety_quality_and_risk_management",
+  "front": "A junior team member says 'stop' during a time-out because the side marker looks wrong. How should this be treated?",
+  "back": "As a good catch. Anyone on the team can call a stop, and the discrepancy is resolved before continuing."
+ },
+ {
+  "id": 215,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What are the five rights used for medication safety checks?",
+  "back": "Right patient, drug, dose, route and time, plus allergy status and expiry and labelling."
+ },
+ {
+  "id": 216,
+  "domain": "safety_quality_and_risk_management",
+  "front": "You find an unlabelled syringe on the tray. What do you do?",
+  "back": "Do not use it. Discard or return it per local policy and prepare a correctly labelled one."
+ },
+ {
+  "id": 217,
+  "domain": "safety_quality_and_risk_management",
+  "front": "A patient starts having a reaction during an injection. What is the first action?",
+  "back": "Stop the injection, call for help, follow the local acute reaction plan and document."
+ },
+ {
+  "id": 218,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What does the infection chain need?",
+  "back": "A host, an agent, and a way for the agent to pass from one to the other."
+ },
+ {
+  "id": 219,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What are the 5 Moments for Hand Hygiene?",
+  "back": "Before touching a patient, before a procedure, after a procedure or body fluid exposure risk, after touching a patient, and after touching patient surroundings."
+ },
+ {
+  "id": 220,
+  "domain": "safety_quality_and_risk_management",
+  "front": "When should you use soap and water instead of alcohol-based hand rub?",
+  "back": "When hands are visibly soiled, or after contact with certain infections such as Clostridioides difficile."
+ },
+ {
+  "id": 221,
+  "domain": "safety_quality_and_risk_management",
+  "front": "Do gloves replace hand hygiene?",
+  "back": "No. Gloves are worn for blood or body fluid contact, and hand hygiene is still needed, with gloves changed between patients."
+ },
+ {
+  "id": 222,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What do you do immediately after a needlestick injury?",
+  "back": "Wash the site, report at once, and follow the exposure management plan."
+ },
+ {
+  "id": 223,
+  "domain": "safety_quality_and_risk_management",
+  "front": "Should used needles be recapped by hand?",
+  "back": "No. Place them in a sharps container at the point of use, and do not overfill it."
+ },
+ {
+  "id": 224,
+  "domain": "safety_quality_and_risk_management",
+  "front": "Which guidelines are the basis for infection control in Australian healthcare?",
+  "back": "The NHMRC Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019)."
+ },
+ {
+  "id": 225,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What primary duty does WHS law place on the person conducting a business or undertaking?",
+  "back": "To keep workers and others safe so far as reasonably practicable."
+ },
+ {
+  "id": 226,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What are a worker's WHS duties?",
+  "back": "Take reasonable care for their own safety and others, follow reasonable instructions, and cooperate with safety policies."
+ },
+ {
+  "id": 227,
+  "domain": "safety_quality_and_risk_management",
+  "front": "Is the MRI magnet only a hazard while scanning?",
+  "back": "No. The magnet is always on, so projectile risk exists at all times."
+ },
+ {
+  "id": 228,
+  "domain": "safety_quality_and_risk_management",
+  "front": "A patient collapses in the MRI scanner room. What is the first priority?",
+  "back": "Move the patient out of the magnet room to a safe area, and the resuscitation team does not enter the magnet room."
+ },
+ {
+  "id": 229,
+  "domain": "safety_quality_and_risk_management",
+  "front": "A test on a treatment machine fails. What should you do?",
+  "back": "Take it out of use, label and report it, and do not treat patients until it is fixed and passes the checks."
+ },
+ {
+  "id": 230,
+  "domain": "safety_quality_and_risk_management",
+  "front": "What do the letters in RACE stand for in a fire?",
+  "back": "Remove people in danger, raise the Alarm, Contain the fire by closing doors, then Extinguish if safe or Evacuate."
+ },
+ {
+  "id": 231,
+  "domain": "leader_and_steward",
+  "front": "According to the Board's Leader and Steward domain, who is expected to show leadership?",
+  "back": "Every medical radiation practitioner with general registration, not only people in formal management roles."
+ },
+ {
+  "id": 232,
+  "domain": "leader_and_steward",
+  "front": "Name the three key capabilities in the Board's Leader and Steward domain.",
+  "back": "Contribute to improving healthcare delivery in teams, organisations and systems; lead and support stewardship of healthcare systems; and leadership as a professional practice."
+ },
+ {
+  "id": 233,
+  "domain": "leader_and_steward",
+  "front": "What does stewardship mean in health care?",
+  "back": "Looking after shared, limited things such as money, staff time, equipment, the environment and public trust so that they serve patients well now and later."
+ },
+ {
+  "id": 234,
+  "domain": "leader_and_steward",
+  "front": "What does a practitioner remain responsible for after delegating a task?",
+  "back": "Accountability for the decision that the delegation was safe, which means the task matched the person's competence, scope and level of supervision."
+ },
+ {
+  "id": 235,
+  "domain": "leader_and_steward",
+  "front": "A busy department asks a first-year student to position a patient alone for a repeat examination. What should you do?",
+  "back": "Decline politely, explain that the student needs supervision for this task, and supervise it yourself or find another way to share the load. Busyness does not lower the supervision standard."
+ },
+ {
+  "id": 236,
+  "domain": "leader_and_steward",
+  "front": "What three questions guide a safe delegation?",
+  "back": "Is the person competent for the task, is it within their scope of practice or role, and is the supervision matched to the risk?"
+ },
+ {
+  "id": 237,
+  "domain": "leader_and_steward",
+  "front": "Three requests arrive at once: a routine ward patient, an emergency patient with a suspected serious injury, and an outpatient waiting 40 minutes. Who is seen first?",
+  "back": "The emergency patient, because prioritisation follows patient risk and urgency. Tell the outpatient honestly about the delay and inform the coordinator."
+ },
+ {
+  "id": 238,
+  "domain": "leader_and_steward",
+  "front": "What should never be shortened when you are under time pressure?",
+  "back": "Core safety steps such as patient identification, the procedure check, radiation safety and infection control."
+ },
+ {
+  "id": 239,
+  "domain": "leader_and_steward",
+  "front": "A shift is going to be unsafe because too few trained staff are rostered. What is the leadership action?",
+  "back": "Tell the coordinator early, state what is at risk and suggest a solution. Reporting unsafe staffing is a leadership act."
+ },
+ {
+  "id": 240,
+  "domain": "leader_and_steward",
+  "front": "What is low-value care?",
+  "back": "Tests or treatments that give little or no benefit to the patient, or where the harm or cost outweighs the benefit."
+ },
+ {
+  "id": 241,
+  "domain": "leader_and_steward",
+  "front": "A referral asks for a repeat examination two days after a clear one with no new symptoms. What is the best first action?",
+  "back": "Contact the referrer, ask what has changed and share the findings of the recent study, then agree on the next step and document the discussion."
+ },
+ {
+  "id": 242,
+  "domain": "leader_and_steward",
+  "front": "What is Choosing Wisely Australia?",
+  "back": "A national initiative that encourages clinicians and patients to talk about care that may not be needed. It supports questioning a request but does not replace clinical judgement."
+ },
+ {
+  "id": 243,
+  "domain": "leader_and_steward",
+  "front": "Which level of government is mainly responsible for Medicare, the MBS and the PBS?",
+  "back": "The Commonwealth (national) government."
+ },
+ {
+  "id": 244,
+  "domain": "leader_and_steward",
+  "front": "Who mainly runs public hospitals and holds the main radiation safety legislation powers in Australia?",
+  "back": "State and territory governments, which is why radiation rules can differ in detail between jurisdictions."
+ },
+ {
+  "id": 245,
+  "domain": "leader_and_steward",
+  "front": "What does the Medicare Benefits Schedule list?",
+  "back": "The services that attract a Medicare rebate, including many diagnostic imaging services."
+ },
+ {
+  "id": 246,
+  "domain": "leader_and_steward",
+  "front": "A patient asks you for the exact rebate amount for their scan and you are unsure. What is the best response?",
+  "back": "Explain that funding differs between services and refer the question to the administration team, rather than guessing a figure."
+ },
+ {
+  "id": 247,
+  "domain": "leader_and_steward",
+  "front": "What is a near miss and why should it be reported?",
+  "back": "An event that could have caused harm but did not. Reporting it reveals weaknesses before a patient is hurt."
+ },
+ {
+  "id": 248,
+  "domain": "leader_and_steward",
+  "front": "Which framework guides honest communication with a patient and family after harm occurs?",
+  "back": "The Australian Open Disclosure Framework: acknowledge, express regret, explain what is known, describe what will be done and keep them informed."
+ },
+ {
+  "id": 249,
+  "domain": "leader_and_steward",
+  "front": "What are the four steps of the plan, do, study, act cycle?",
+  "back": "Plan the change and how to measure it, do it on a small scale, study the result against the plan, then act by keeping, changing or dropping it."
+ },
+ {
+  "id": 250,
+  "domain": "leader_and_steward",
+  "front": "A senior colleague starts a procedure without the final safety check. What is the best action?",
+  "back": "Pause the team and ask in a calm, clear voice for the check to be completed. Do not assume the more senior person must be right."
+ },
+ {
+  "id": 251,
+  "domain": "diagnostic_radiography_division",
+  "front": "What does an anteroposterior (AP) projection mean for beam direction through the patient?",
+  "back": "The beam enters the front of the body and leaves the back. A PA projection is the reverse."
+ },
+ {
+  "id": 252,
+  "domain": "diagnostic_radiography_division",
+  "front": "Why is a part placed as close to the image receptor as possible?",
+  "back": "A short object to image distance gives less magnification and better sharpness. A longer distance magnifies and blurs the structure."
+ },
+ {
+  "id": 253,
+  "domain": "diagnostic_radiography_division",
+  "front": "What is the rule for imaging a bone or joint to avoid missing a fracture or foreign body?",
+  "back": "Take at least two projections at right angles to each other. A single view can hide a fracture lying in the line of the beam."
+ },
+ {
+  "id": 254,
+  "domain": "diagnostic_radiography_division",
+  "front": "When must the anatomical side marker be placed?",
+  "back": "Within the primary beam and the collimated field, on the correct side, before the exposure. Never guess a side or rely on adding it afterwards."
+ },
+ {
+  "id": 255,
+  "domain": "diagnostic_radiography_division",
+  "front": "A side marker was forgotten and the side cannot be established with certainty. What should you do?",
+  "back": "Repeat the exposure with the correct marker. A wrong side on an image is a patient safety risk."
+ },
+ {
+  "id": 256,
+  "domain": "diagnostic_radiography_division",
+  "front": "What is the routine chest projection and the usual SID?",
+  "back": "An erect PA at full inspiration, usually at 180 cm SID, which reduces magnification of the heart."
+ },
+ {
+  "id": 257,
+  "domain": "diagnostic_radiography_division",
+  "front": "Which features show a well taken PA chest image?",
+  "back": "About 10 posterior ribs above the diaphragm, no rotation (clavicle ends equal from the spinous processes), vertebrae just visible through the heart, and scapulae clear of the lungs."
+ },
+ {
+  "id": 258,
+  "domain": "diagnostic_radiography_division",
+  "front": "Why does the heart look larger on an AP supine chest than on an erect PA?",
+  "back": "The heart is further from the receptor, so it is magnified. Supine fluid also layers behind the lung as a general haze."
+ },
+ {
+  "id": 259,
+  "domain": "diagnostic_radiography_division",
+  "front": "A patient cannot sit up and a small pneumothorax is suspected. Which view can help?",
+  "back": "A lateral decubitus with a horizontal beam, because free air rises to the highest point."
+ },
+ {
+  "id": 260,
+  "domain": "diagnostic_radiography_division",
+  "front": "Which views show free gas in a patient with a suspected perforated bowel?",
+  "back": "An erect chest film or a left lateral decubitus abdomen (right side up) with a horizontal beam. The patient lies in position first."
+ },
+ {
+  "id": 261,
+  "domain": "diagnostic_radiography_division",
+  "front": "What does free gas look like on an erect film?",
+  "back": "A thin lucent crescent beneath the diaphragm."
+ },
+ {
+  "id": 262,
+  "domain": "diagnostic_radiography_division",
+  "front": "A trauma patient has a suspected neck injury. What is the first cervical spine view and how is it taken?",
+  "back": "A cross table lateral with a horizontal beam, taken with the patient supine and not moved."
+ },
+ {
+  "id": 263,
+  "domain": "diagnostic_radiography_division",
+  "front": "What does cross table mean in radiography?",
+  "back": "The beam is horizontal, parallel to the floor, so the patient can stay flat on the trolley."
+ },
+ {
+  "id": 264,
+  "domain": "diagnostic_radiography_division",
+  "front": "Which extra cervical view shows the atlas and axis?",
+  "back": "The open mouth view, which shows C1 and C2."
+ },
+ {
+  "id": 265,
+  "domain": "diagnostic_radiography_division",
+  "front": "A patient with a suspected fractured hip has a shortened, externally rotated leg. How should the AP pelvis be taken?",
+  "back": "Take it as the patient lies, without rotating the leg, because rotation could move the fragments."
+ },
+ {
+  "id": 266,
+  "domain": "diagnostic_radiography_division",
+  "front": "Which pair of views is usual for a suspected fractured neck of femur?",
+  "back": "An AP pelvis and a cross table lateral of the affected hip, with the other leg lifted out of the way."
+ },
+ {
+  "id": 267,
+  "domain": "diagnostic_radiography_division",
+  "front": "In a routine AP pelvis, how are the legs normally positioned and why?",
+  "back": "Internally rotated about 15° so the femoral necks are seen in profile, unless a fracture is suspected."
+ },
+ {
+  "id": 268,
+  "domain": "diagnostic_radiography_division",
+  "front": "Why is a scaphoid series taken with ulnar deviation, and why is it worth repeating films?",
+  "back": "Ulnar deviation elongates the scaphoid and separates it from the surrounding carpals. A scaphoid fracture can be invisible on the first films, so if the films are negative but the clinical suspicion remains, the wrist is immobilised and repeat films or other imaging are done after about 7 to 14 days."
+ },
+ {
+  "id": 269,
+  "domain": "diagnostic_radiography_division",
+  "front": "What does a raised fat pad sign at the elbow suggest?",
+  "back": "A joint effusion, often from an occult fracture, especially in children."
+ },
+ {
+  "id": 270,
+  "domain": "diagnostic_radiography_division",
+  "front": "Why is a second view added to an AP shoulder?",
+  "back": "A Y view or axial view stops a dislocation being missed. An AP alone can miss a posterior dislocation."
+ },
+ {
+  "id": 271,
+  "domain": "diagnostic_radiography_division",
+  "front": "What are the three routine ankle views, and how is the mortise view positioned?",
+  "back": "AP, mortise and lateral. For the mortise the leg is internally rotated about 15° to 20° to open the joint space."
+ },
+ {
+  "id": 272,
+  "domain": "diagnostic_radiography_division",
+  "front": "Which knee view detects a lipohaemarthrosis, and what does it mean?",
+  "back": "A horizontal beam lateral. A fat and blood level in the joint means an intra articular fracture until proven otherwise."
+ },
+ {
+  "id": 273,
+  "domain": "diagnostic_radiography_division",
+  "front": "In a panoramic OPG, what happens if the patient's chin is too high?",
+  "back": "The occlusal plane curves the wrong way and the incisors look blurred. Positioning errors are the usual cause of OPG faults."
+ },
+ {
+  "id": 274,
+  "domain": "diagnostic_radiography_division",
+  "front": "Why should earrings and necklaces be removed before an OPG?",
+  "back": "Metal creates dense artefacts that hide anatomy."
+ },
+ {
+  "id": 275,
+  "domain": "diagnostic_radiography_division",
+  "front": "A parent helps hold a child during an exposure. What must they do?",
+  "back": "Wear a lead apron, stay out of the primary beam and not be pregnant. Immobilisation devices are used first, hand holding last."
+ },
+ {
+  "id": 276,
+  "domain": "diagnostic_radiography_division",
+  "front": "A radiographer suspects non accidental injury in a child. What is the correct action?",
+  "back": "Follow the skeletal survey protocol and local policy, and report concerns through the correct pathway. Do not question the child or carer."
+ },
+ {
+  "id": 277,
+  "domain": "diagnostic_radiography_division",
+  "front": "Which three questions decide whether an image should be repeated?",
+  "back": "Is the anatomy of interest shown, is positioning good enough to answer the clinical question, and is the exposure adequate? Repeat only when the image cannot answer the question."
+ },
+ {
+  "id": 278,
+  "domain": "diagnostic_radiography_division",
+  "front": "An image looks fine but the exposure index is very high. What does that mean?",
+  "back": "The image was overexposed and the patient received extra dose. Record it and adjust technique next time. A repeat is rarely justified."
+ },
+ {
+  "id": 279,
+  "domain": "diagnostic_radiography_division",
+  "front": "What does kVp control in the x-ray beam, and how does raising it change the image?",
+  "back": "kVp sets photon energy, so it controls penetration and contrast. Higher kVp gives a more penetrating beam, lower contrast and lower patient dose for the same detector signal."
+ },
+ {
+  "id": 280,
+  "domain": "diagnostic_radiography_division",
+  "front": "What does mAs control, and what happens to dose if you double it?",
+  "back": "mAs sets the number of photons made. Doubling mAs doubles the amount of radiation and so doubles the patient dose."
+ },
+ {
+  "id": 281,
+  "domain": "diagnostic_radiography_division",
+  "front": "State the 15 percent rule.",
+  "back": "Raising kVp by 15 percent roughly doubles the exposure reaching the detector, and lowering it by 15 percent roughly halves it. To keep the same signal after a rise, halve the mAs."
+ },
+ {
+  "id": 282,
+  "domain": "diagnostic_radiography_division",
+  "front": "A hand is exposed at 70 kVp and 20 mAs. Using the 15 percent rule, what factors give the same detector signal at lower dose?",
+  "back": "70 × 1.15 = 80.5, so use about 80 kVp, and halve the mAs from 20 to 10. Signal stays similar, dose falls and contrast is slightly lower."
+ },
+ {
+  "id": 283,
+  "domain": "diagnostic_radiography_division",
+  "front": "An exposure of 10 mAs at 100 cm is changed to 150 cm SID. What new mAs keeps the same detector signal?",
+  "back": "New mAs = 10 × (150 ÷ 100)² = 10 × 2.25 = 22.5 mAs. A longer distance weakens the beam, so mAs must rise."
+ },
+ {
+  "id": 284,
+  "domain": "diagnostic_radiography_division",
+  "front": "What does the inverse square law say about beam intensity and distance?",
+  "back": "Intensity is inversely proportional to the square of the distance from the source. Doubling the distance cuts intensity to one quarter."
+ },
+ {
+  "id": 285,
+  "domain": "diagnostic_radiography_division",
+  "front": "Which end of the tube should lie over the thicker part of the body, and why?",
+  "back": "The cathode end, because the anode heel effect makes the beam less intense on the anode side. For an AP thoracic spine the cathode goes at the feet end."
+ },
+ {
+  "id": 286,
+  "domain": "diagnostic_radiography_division",
+  "front": "A thoracic spine image is too dark at the top and too light at the bottom. What is the best first correction?",
+  "back": "Reverse the tube direction so the cathode is over the thicker lower spine, using the heel effect. Raising mAs would darken everything and double the dose."
+ },
+ {
+  "id": 287,
+  "domain": "diagnostic_radiography_division",
+  "front": "How do you work out magnification from the geometry?",
+  "back": "Magnification = SID ÷ SOD. With SID 100 cm and OID 10 cm, SOD is 90 cm, so magnification is 1.11 and a 5.0 cm object appears about 5.6 cm."
+ },
+ {
+  "id": 288,
+  "domain": "diagnostic_radiography_division",
+  "front": "State the formula for geometric unsharpness (penumbra).",
+  "back": "Penumbra = focal spot size × OID ÷ SOD. A focal spot of 1.0 mm, OID 10 cm and SOD 90 cm gives 0.11 mm."
+ },
+ {
+  "id": 289,
+  "domain": "diagnostic_radiography_division",
+  "front": "Which three changes reduce geometric unsharpness?",
+  "back": "Use a smaller focal spot, a longer SID, and place the part as close to the detector as possible (smaller OID)."
+ },
+ {
+  "id": 290,
+  "domain": "diagnostic_radiography_division",
+  "front": "A patient cannot hold still and a limb image is blurred. Which exposure change is most appropriate?",
+  "back": "Shorten the exposure time by using a higher mA (adjusting mAs or kVp to suit), and immobilise the limb. Do not simply repeat with the same time."
+ },
+ {
+  "id": 291,
+  "domain": "diagnostic_radiography_division",
+  "front": "Name three ways to control scatter.",
+  "back": "Tight collimation, compression or an air gap, and a grid. Collimation is the first and cheapest tool."
+ },
+ {
+  "id": 292,
+  "domain": "diagnostic_radiography_division",
+  "front": "What is grid ratio?",
+  "back": "The height of the lead strips divided by the gap between them. A higher ratio removes more scatter but needs more exposure and more accurate positioning."
+ },
+ {
+  "id": 293,
+  "domain": "diagnostic_radiography_division",
+  "front": "A non-grid technique uses 5 mAs. What mAs is needed with an 8:1 grid using a conversion factor of 4?",
+  "back": "5 × 4 = 20 mAs. The dose rises fourfold in exchange for better contrast."
+ },
+ {
+  "id": 294,
+  "domain": "diagnostic_radiography_division",
+  "front": "When should a grid not be used?",
+  "back": "On small paediatric parts and thin extremities, because the patient receives extra dose with little gain in image quality."
+ },
+ {
+  "id": 295,
+  "domain": "diagnostic_radiography_division",
+  "front": "An image has low density at both edges and normal density along the middle line. Which grid fault is likely?",
+  "back": "An upside-down focused grid. Off-focus cutoff also lowers the edges, but upside-down gives very low density at both edges."
+ },
+ {
+  "id": 296,
+  "domain": "diagnostic_radiography_division",
+  "front": "An AEC image of a pelvis with a hip prosthesis over the centre chamber is overexposed around the metal. What is the best action?",
+  "back": "Metal blocks the beam over the chamber so the exposure runs long. Select the side chambers or use manual factors rather than repeat the same exposure."
+ },
+ {
+  "id": 297,
+  "domain": "diagnostic_radiography_division",
+  "front": "What is the difference between CR and DR?",
+  "back": "CR uses a photostimulable phosphor plate that a laser scans in a separate reader. DR uses a flat-panel detector that creates the digital image straight away."
+ },
+ {
+  "id": 298,
+  "domain": "diagnostic_radiography_division",
+  "front": "What does the exposure index tell you?",
+  "back": "How much radiation reached the detector, not how much the patient received. It is compared with a target exposure index for the examination."
+ },
+ {
+  "id": 299,
+  "domain": "diagnostic_radiography_division",
+  "front": "What does a deviation index of 0, +1 and −1 mean?",
+  "back": "0 is on target. +1 is about 26 percent more than the target. −1 is about 20 percent less than target. About ±1 is usually acceptable."
+ },
+ {
+  "id": 300,
+  "domain": "diagnostic_radiography_division",
+  "front": "A chest image looks excellent but the deviation index is +4. What should the radiographer do?",
+  "back": "Treat it as overexposure even though the image looks good. Record it, review technique and AEC settings, and report through the local quality process."
+ },
+ {
+  "id": 301,
+  "domain": "diagnostic_radiography_division",
+  "front": "What is dose creep and how is it controlled?",
+  "back": "A slow rise in exposures over time because digital images do not look too dark when overexposed. Check the exposure index on every image, audit indices and use technique charts."
+ },
+ {
+  "id": 302,
+  "domain": "diagnostic_radiography_division",
+  "front": "What causes quantum mottle and how is it reduced?",
+  "back": "Too few photons reaching the detector, giving a grainy image. More mAs reduces it but raises dose, so repeat only if it affects the diagnosis."
+ },
+ {
+  "id": 303,
+  "domain": "diagnostic_radiography_division",
+  "front": "Can windowing recover detail from an underexposed digital image?",
+  "back": "No. Windowing changes the displayed brightness and contrast only. It cannot add information the detector did not record or remove quantum mottle."
+ },
+ {
+  "id": 304,
+  "domain": "diagnostic_radiography_division",
+  "front": "The same white line appears in the same place on every image from one CR plate. What is the cause?",
+  "back": "A scratch or dust on that plate. Clean it, and take the plate out of use if cleaning fails. Repeating on the same plate repeats the line."
+ },
+ {
+  "id": 305,
+  "domain": "diagnostic_radiography_division",
+  "front": "What does DAP measure and what unit is used?",
+  "back": "Dose area product is the dose in air multiplied by beam area, in Gy·cm². It includes field size and is used for diagnostic reference levels."
+ },
+ {
+  "id": 306,
+  "domain": "diagnostic_radiography_division",
+  "front": "What is a diagnostic reference level, and is it a dose limit?",
+  "back": "A benchmark for typical doses for a common examination on a standard-size patient. It is not a dose limit, and typical doses above it should be investigated and optimised."
+ },
+ {
+  "id": 307,
+  "domain": "diagnostic_radiography_division",
+  "front": "What Hounsfield unit value is given to water and to air in CT?",
+  "back": "Water is 0 HU and air is about -1000 HU."
+ },
+ {
+  "id": 308,
+  "domain": "diagnostic_radiography_division",
+  "front": "In CT, what does DLP equal and what unit does it use?",
+  "back": "DLP equals CTDIvol multiplied by scan length, in mGy cm."
+ },
+ {
+  "id": 309,
+  "domain": "diagnostic_radiography_division",
+  "front": "A scan has CTDIvol 10 mGy over 40 cm. What is the DLP?",
+  "back": "DLP = 10 × 40 = 400 mGy cm."
+ },
+ {
+  "id": 310,
+  "domain": "diagnostic_radiography_division",
+  "front": "What happens to dose and noise when you double the mAs in CT?",
+  "back": "Dose doubles and noise falls by about 30 percent. Noise falls with the square root of mAs."
+ },
+ {
+  "id": 311,
+  "domain": "diagnostic_radiography_division",
+  "front": "How much must mAs increase to halve image noise in CT?",
+  "back": "Quadruple it, because noise falls with the square root of mAs."
+ },
+ {
+  "id": 312,
+  "domain": "diagnostic_radiography_division",
+  "front": "What does changing the CT window level and width alter?",
+  "back": "Only the display of the image. It does not change the dose or the acquired data."
+ },
+ {
+  "id": 313,
+  "domain": "diagnostic_radiography_division",
+  "front": "A CT scan range was extended 10 cm beyond what the request needed. What is the effect on dose?",
+  "back": "DLP rises because scan length rises, with no benefit. Scan only the range needed."
+ },
+ {
+  "id": 314,
+  "domain": "diagnostic_radiography_division",
+  "front": "Why must a department compare its median dose with the diagnostic reference level for an examination?",
+  "back": "The comparison shows whether typical doses are higher than national practice. If so, technique is reviewed and optimised. It is a review tool, not a legal limit for one patient."
+ },
+ {
+  "id": 315,
+  "domain": "diagnostic_radiography_division",
+  "front": "A child needs a head CT and the image looks grainy. What is the best approach?",
+  "back": "Use a size-based paediatric protocol and accept some noise if the clinical question can still be answered. Do not simply raise mAs."
+ },
+ {
+  "id": 316,
+  "domain": "diagnostic_radiography_division",
+  "front": "Which CT contrast phase is the usual routine phase for the abdomen?",
+  "back": "The portal venous phase, roughly 60 to 70 seconds after injection."
+ },
+ {
+  "id": 317,
+  "domain": "diagnostic_radiography_division",
+  "front": "Which CT artefact looks like streaks around a hip prosthesis?",
+  "back": "Metal artefact, with bright and dark streaks around the implant."
+ },
+ {
+  "id": 318,
+  "domain": "diagnostic_radiography_division",
+  "front": "Does a higher CT pitch raise or lower dose at a fixed tube current?",
+  "back": "It lowers dose and covers the body faster, but can blur detail."
+ },
+ {
+  "id": 319,
+  "domain": "diagnostic_radiography_division",
+  "front": "What is the single most important MRI safety fact about the magnet?",
+  "back": "The magnet is always on, even when no scan is running, so ferromagnetic objects can become projectiles."
+ },
+ {
+  "id": 320,
+  "domain": "diagnostic_radiography_division",
+  "front": "What do short TR and short TE produce in MRI?",
+  "back": "A T1-weighted image, where fat is bright and simple fluid such as CSF is dark."
+ },
+ {
+  "id": 321,
+  "domain": "diagnostic_radiography_division",
+  "front": "Which MRI sequence suppresses CSF signal to show lesions near fluid spaces?",
+  "back": "FLAIR (fluid attenuated inversion recovery)."
+ },
+ {
+  "id": 322,
+  "domain": "diagnostic_radiography_division",
+  "front": "Which MRI sequence shows early stroke?",
+  "back": "Diffusion weighted imaging (DWI), which shows restricted movement of water."
+ },
+ {
+  "id": 323,
+  "domain": "diagnostic_radiography_division",
+  "front": "What is Zone III in an MRI department?",
+  "back": "A restricted zone where only screened staff and patients are allowed, because it leads to the scanner room."
+ },
+ {
+  "id": 324,
+  "domain": "diagnostic_radiography_division",
+  "front": "What does MR Conditional mean for an implant?",
+  "back": "It is safe only under stated conditions, such as field strength and scan limits, which must be followed exactly."
+ },
+ {
+  "id": 325,
+  "domain": "diagnostic_radiography_division",
+  "front": "A patient says they have an old pacemaker and needs a knee MRI. What do you do first?",
+  "back": "Stop, identify the exact device and leads, check their MR status, and involve the MRI safety lead, radiologist and cardiac team."
+ },
+ {
+  "id": 326,
+  "domain": "diagnostic_radiography_division",
+  "front": "What does SAR measure in MRI?",
+  "back": "The rate at which the body absorbs radiofrequency energy as heat, in W/kg."
+ },
+ {
+  "id": 327,
+  "domain": "diagnostic_radiography_division",
+  "front": "Why is gadolinium used with caution in severe kidney failure?",
+  "back": "Some older linear agents have been linked to nephrogenic systemic fibrosis. Current practice uses stable macrocyclic agents and checks kidney function."
+ },
+ {
+  "id": 328,
+  "domain": "diagnostic_radiography_division",
+  "front": "Does an iodine contrast allergy rule out gadolinium contrast?",
+  "back": "No. Gadolinium is not an iodine contrast, but any previous gadolinium reaction must be recorded and communicated."
+ },
+ {
+  "id": 329,
+  "domain": "diagnostic_radiography_division",
+  "front": "In ultrasound, what trade-off comes with a higher probe frequency?",
+  "back": "Better detail but less penetration, so it suits shallow structures."
+ },
+ {
+  "id": 330,
+  "domain": "diagnostic_radiography_division",
+  "front": "An ultrasound echo returns 130 µs after the pulse. What is the depth at 1540 m/s?",
+  "back": "One-way time is 65 µs, so depth = 1540 × 65 × 10^-6 = 0.1001 m, about 10 cm."
+ },
+ {
+  "id": 331,
+  "domain": "diagnostic_radiography_division",
+  "front": "What artefact is a dark area behind a gallstone on ultrasound?",
+  "back": "Acoustic shadowing."
+ },
+ {
+  "id": 332,
+  "domain": "diagnostic_radiography_division",
+  "front": "What artefact makes the area behind a simple cyst look brighter on ultrasound?",
+  "back": "Posterior enhancement, because little sound is lost in the fluid."
+ },
+ {
+  "id": 333,
+  "domain": "diagnostic_radiography_division",
+  "front": "Which Doppler beam angle gives little or no shift, and what angle is advised for speed measurement?",
+  "back": "At 90° to the vessel little or no shift is seen. Keep the angle at 60° or less for speed measurements."
+ },
+ {
+  "id": 334,
+  "domain": "diagnostic_radiography_division",
+  "front": "Why are mammography x-rays low kVp, and why is the breast compressed?",
+  "back": "Low kVp gives high contrast between similar tissues. Compression spreads tissue, lowers dose, cuts scatter and reduces motion blur."
+ },
+ {
+  "id": 335,
+  "domain": "diagnostic_radiography_division",
+  "front": "What T-score defines osteoporosis on bone densitometry?",
+  "back": "A T-score of -2.5 or below."
+ },
+ {
+  "id": 336,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Which decay mode of F-18 makes PET possible, and what does it produce?",
+  "back": "Beta plus (positron) decay. The positron annihilates with an electron to give two 511 keV photons about 180 degrees apart."
+ },
+ {
+  "id": 337,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "How does Tc-99m decay, and what is emitted?",
+  "back": "By isomeric transition from a metastable state. It emits a 140 keV gamma ray with no particle, so the dose per detected photon is low."
+ },
+ {
+  "id": 338,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A department record shows a 10 mCi dose. What is this in MBq?",
+  "back": "1 mCi is 37 MBq, so 10 mCi is 370 MBq."
+ },
+ {
+  "id": 339,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "State the approximate physical half-lives of Tc-99m, F-18 and Mo-99.",
+  "back": "Tc-99m about 6 hours, F-18 about 110 minutes, Mo-99 about 66 hours."
+ },
+ {
+  "id": 340,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A vial holds 1,200 MBq of Tc-99m at 08:00. What activity is present at 11:00?",
+  "back": "Three hours is half a half-life. Factor 0.7071, so 1,200 × 0.7071 = 848.5 MBq."
+ },
+ {
+  "id": 341,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "At 11:00 a vial has 848.5 MBq in 4 mL. What volume gives 600 MBq?",
+  "back": "Concentration is 848.5 ÷ 4 = 212.1 MBq per mL. Volume is 600 ÷ 212.1 = 2.83 mL."
+ },
+ {
+  "id": 342,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A patient arrives late and the planned Tc-99m dose has decayed. What should the technologist do?",
+  "back": "Recalculate the volume for the current time, measure the syringe in the dose calibrator, and record the activity and time. Do not give the original volume."
+ },
+ {
+  "id": 343,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Write the formula linking effective, physical and biological half-life.",
+  "back": "1 ÷ Te = 1 ÷ Tp + 1 ÷ Tb, or Te = (Tp × Tb) ÷ (Tp + Tb)."
+ },
+ {
+  "id": 344,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A tracer has Tp = 6 hours and Tb = 6 hours. What is the effective half-life?",
+  "back": "Te = (6 × 6) ÷ (6 + 6) = 3 hours."
+ },
+ {
+  "id": 345,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A calculation gives an effective half-life longer than the physical half-life. What does this tell you?",
+  "back": "The sum is wrong. The effective half-life is always shorter than both the physical and the biological half-life."
+ },
+ {
+  "id": 346,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "How does the Mo-99/Tc-99m generator separate Tc-99m?",
+  "back": "Mo-99 is bound to an alumina column. Saline drawn through by an evacuated vial washes off Tc-99m as sodium pertechnetate."
+ },
+ {
+  "id": 347,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What type of equilibrium exists in the Mo-99/Tc-99m generator, and when does Tc-99m peak?",
+  "back": "Transient equilibrium, because the parent half-life is about 11 times the daughter's. Tc-99m peaks about 23 hours after elution."
+ },
+ {
+  "id": 348,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "How is Mo-99 breakthrough measured in the eluate?",
+  "back": "The first eluate vial is placed in a lead sleeve in the dose calibrator. The sleeve blocks Tc-99m 140 keV photons but passes the higher energy Mo-99 photons."
+ },
+ {
+  "id": 349,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Why is aluminium breakthrough in the eluate a problem?",
+  "back": "Aluminium ions interfere with labelling and can clump some kits, such as sulphur colloid and MAA. It is checked with a colorimetric spot test."
+ },
+ {
+  "id": 350,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A labelled kit fails radiochemical purity. What is the correct action?",
+  "back": "Do not give the dose. Investigate the cause, such as an old eluate or aluminium breakthrough, and inform the radiopharmacist or physician."
+ },
+ {
+  "id": 351,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What does a collimator do in a gamma camera?",
+  "back": "It is a lead plate with holes that passes only photons travelling along the hole direction, so the crystal forms an image."
+ },
+ {
+  "id": 352,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Which collimator gives better spatial resolution, LEHR or LEGP, and what is the cost?",
+  "back": "LEHR gives better resolution but lower sensitivity, because fewer photons pass through its narrower or longer holes."
+ },
+ {
+  "id": 353,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What does the NaI(Tl) crystal do, and what does a crack in it cause?",
+  "back": "It turns absorbed gamma rays into flashes of light. A crack causes a persistent defect, often a cold area, on the image."
+ },
+ {
+  "id": 354,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What is the role of the photomultiplier tubes?",
+  "back": "They turn the light flash into electrical signals. Comparing neighbouring tubes gives the X and Y position, and the summed signal gives the photon energy."
+ },
+ {
+  "id": 355,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What energy range does a 20 percent window on Tc-99m cover?",
+  "back": "140 ± 14 keV, which is 126 to 154 keV. It rejects most scattered photons."
+ },
+ {
+  "id": 356,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Describe true, scatter and random coincidences in PET.",
+  "back": "True: both photons from one annihilation, unscattered. Scatter: a photon changed direction, giving a wrong line. Random: photons from different annihilations detected within the timing window."
+ },
+ {
+  "id": 357,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Why does PET not need a collimator?",
+  "back": "The scanner uses coincidence detection of two 511 keV photons in a short timing window, which defines the line of response electronically."
+ },
+ {
+  "id": 358,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Calculate the SUV: tissue 20 kBq/mL, decay-corrected dose 370 MBq, weight 74 kg.",
+  "back": "Dose per gram is 370,000 ÷ 74,000 = 5 kBq/g. SUV = 20 ÷ 5 = 4.0."
+ },
+ {
+  "id": 359,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A hot spot on an attenuation-corrected PET image lies next to a metal implant. What is the best next step?",
+  "back": "Check the non-attenuation-corrected images. Metal causes a CT artefact that can create a false hot spot after correction."
+ },
+ {
+  "id": 360,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Daily uniformity flood on a gamma camera shows a new non-uniform area. What should the practitioner do?",
+  "back": "Not start patient studies on that detector. Repeat the test, check the energy peak, and if it fails again, take the camera out of use and report it."
+ },
+ {
+  "id": 361,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What does a centre of rotation error cause on SPECT, and how is it detected?",
+  "back": "Blurred or ring-shaped artefacts in reconstructed slices. It is detected by a COR test with a point source."
+ },
+ {
+  "id": 362,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What does the dose calibrator constancy test use, and how often is it done?",
+  "back": "A long half-life reference source such as Cs-137, measured daily. The reading should match the expected decayed value."
+ },
+ {
+  "id": 363,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A count of 10,000 is recorded in a well counter. What is the standard deviation and percentage error?",
+  "back": "SD = √10,000 = 100, so the error is 100 ÷ 10,000 = 1 percent."
+ },
+ {
+  "id": 364,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What is the half-life of technetium-99m, and what gamma energy does it emit?",
+  "back": "About 6 hours, with a 140 keV gamma ray, which suits a gamma camera."
+ },
+ {
+  "id": 365,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "In a Mo-99/Tc-99m generator, what happens when sterile saline is passed through the column?",
+  "back": "Tc-99m comes off the column as sodium pertechnetate. This step is called an elution."
+ },
+ {
+  "id": 366,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What is Mo-99 breakthrough, and what is a common limit?",
+  "back": "It is Mo-99 leaking into the eluate. A common limit is 0.15 kBq of Mo-99 per MBq of Tc-99m, as set in the product information."
+ },
+ {
+  "id": 367,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Why is aluminium breakthrough in the eluate a problem, and what is a common limit?",
+  "back": "Aluminium can clump agents such as sulfur colloid and MAA. A common limit is 10 micrograms per mL."
+ },
+ {
+  "id": 368,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What does a cold kit contain besides the carrier molecule?",
+  "back": "A reducing agent, usually stannous chloride, and a buffer. The pertechnetate is reduced so it can bind to the carrier."
+ },
+ {
+  "id": 369,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A busy technologist wants to skip wiping the vial septum to reduce time near the source. What is the right decision?",
+  "back": "Do not skip it. Wipe the septum with a 70 percent alcohol swab and let it dry. Reduce dose with shielding, distance and planning, not by cutting aseptic steps."
+ },
+ {
+  "id": 370,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Define radiochemical purity.",
+  "back": "The percentage of the radioactivity that is in the intended chemical form. The usual target is about 90 to 95 percent or higher, as set by the kit information."
+ },
+ {
+  "id": 371,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Name the two common impurities in a Tc-99m kit.",
+  "back": "Free pertechnetate and reduced hydrolysed technetium (Tc-99m colloid)."
+ },
+ {
+  "id": 372,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Counts on an ITLC strip are 3,000 at the top piece and 57,000 at the bottom piece. What percentage is free pertechnetate in saline?",
+  "back": "3,000 ÷ 60,000 = 0.05, so 5 percent free pertechnetate runs with the solvent front."
+ },
+ {
+  "id": 373,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A kit fails its radiochemical purity test. What should you do?",
+  "back": "Do not use it on a patient. Quarantine the vial, record it and follow the department procedure to find the cause."
+ },
+ {
+  "id": 374,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A lung scan shows a bright thyroid and stomach. What problem should you suspect first?",
+  "back": "Free pertechnetate from a labelling or stability problem, not lung disease. Check the radiopharmaceutical before blaming the camera."
+ },
+ {
+  "id": 375,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "How does Tc-99m MDP localise in the body?",
+  "back": "It binds (chemisorbs) to hydroxyapatite where bone is being laid down and where blood flow is high."
+ },
+ {
+  "id": 376,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Why does Tc-99m MAA show lung perfusion?",
+  "back": "MAA particles of about 10 to 90 micrometres lodge in lung capillaries after intravenous injection."
+ },
+ {
+  "id": 377,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "In which patients is the MAA particle count reduced?",
+  "back": "Children, people with pulmonary hypertension and people with a right to left shunt."
+ },
+ {
+  "id": 378,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What is the difference in how Tc-99m DTPA and Tc-99m MAG3 are cleared by the kidney?",
+  "back": "DTPA is cleared by glomerular filtration. MAG3 is cleared mainly by tubular secretion."
+ },
+ {
+  "id": 379,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What does Tc-99m DMSA show, and why?",
+  "back": "The renal cortex. It binds to proximal tubule cells and stays there, so late images show scarring or functioning cortex."
+ },
+ {
+  "id": 380,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Why do sestamibi and tetrofosmin show heart muscle perfusion?",
+  "back": "They are lipophilic cations that enter heart muscle cells in proportion to blood flow and are held in mitochondria."
+ },
+ {
+  "id": 381,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Why does F-18 FDG light up many cancers?",
+  "back": "It is a glucose analogue. It is phosphorylated and trapped in cells that use a lot of glucose. F-18 has a half-life of about 110 minutes."
+ },
+ {
+  "id": 382,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A vial holds 600 MBq of Tc-99m at 08:00. What is the activity at 14:00?",
+  "back": "6 hours is one half-life, so 600 × 1/2 = 300 MBq."
+ },
+ {
+  "id": 383,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "State the decay equation using the half-life.",
+  "back": "A = A0 × (1/2)^(t ÷ T½), with t and T½ in the same unit."
+ },
+ {
+  "id": 384,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A vial has 932 MBq in 4.0 mL at injection time. How much volume gives 740 MBq?",
+  "back": "932 ÷ 4.0 = 233 MBq per mL. 740 ÷ 233 = 3.18 mL, about 3.2 mL."
+ },
+ {
+  "id": 385,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A child weighs 20 kg and the adult activity is 600 MBq for 70 kg. What is the weight scaled activity, and what else must you check?",
+  "back": "600 × 20 ÷ 70 = 171 MBq. Check the minimum activity in the paediatric dose card or department protocol and give the minimum if it is higher."
+ },
+ {
+  "id": 386,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A patient with diabetes has blood glucose above the department limit before FDG PET. What is the best action?",
+  "back": "Do not inject. Follow protocol to reschedule or correct glucose. Injecting anyway risks a non-diagnostic scan."
+ },
+ {
+  "id": 387,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Why must caffeine be withheld before adenosine or regadenoson stress imaging?",
+  "back": "Caffeine blocks adenosine receptors and can make the stress test fail. Withhold for the time in the protocol."
+ },
+ {
+  "id": 388,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Why can opioid pain medicine affect a mebrofenin hepatobiliary scan?",
+  "back": "It can cause spasm of the sphincter of Oddi, so the bile duct looks blocked. Review it before the scan."
+ },
+ {
+  "id": 389,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "List the checks before giving any radiopharmaceutical.",
+  "back": "Right patient (three identifiers), agent, activity measured in a dose calibrator, route and time. Also record pregnancy, breastfeeding and allergy status, then measure the residual after injection."
+ },
+ {
+  "id": 390,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "You suspect extravasation during a diagnostic injection. What is the first action?",
+  "back": "Stop the injection, record the site and estimated amount, tell the nuclear medicine physician, and consider imaging the site. Do not repeat a full dose without the physician's decision."
+ },
+ {
+  "id": 391,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What is the best advice for breastfeeding after I-131 therapy?",
+  "back": "Breastfeeding must stop for that infant, and therapy is not given to a woman who is still breastfeeding."
+ },
+ {
+  "id": 392,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What is a radiopharmaceutical?",
+  "back": "A medicine that carries a radioactive label (radionuclide) to a particular organ or process so it can be imaged or treated."
+ },
+ {
+  "id": 393,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "How many patient identifiers should be used before giving a radiopharmaceutical?",
+  "back": "At least three, for example full name, date of birth and medical record number, matched to the request and the syringe label."
+ },
+ {
+  "id": 394,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What is the physical half life of Tc-99m?",
+  "back": "About 6 hours."
+ },
+ {
+  "id": 395,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What is the physical half life of F-18?",
+  "back": "About 110 minutes."
+ },
+ {
+  "id": 396,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A syringe holds 800 MBq of Tc-99m at 0800. How much is left at 2000?",
+  "back": "200 MBq, because 12 hours is two half lives: 800 to 400 to 200."
+ },
+ {
+  "id": 397,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A syringe holds 400 MBq of F-18 at 0900. How much remains at 1050?",
+  "back": "About 200 MBq, because 110 minutes is one half life."
+ },
+ {
+  "id": 398,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Which radiopharmaceutical is used for a standard bone scan?",
+  "back": "Tc-99m methylene diphosphonate (MDP), taken up where bone is being laid down."
+ },
+ {
+  "id": 399,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Why is a patient told to drink extra fluid after a bone scan injection?",
+  "back": "It clears unbound tracer and lowers the bladder dose, and frequent voiding helps further."
+ },
+ {
+  "id": 400,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A bone scan shows a hot spot on the skin. What is the likely cause and best action?",
+  "back": "Urine contamination. Wash the area, remove contaminated clothing and repeat the view."
+ },
+ {
+  "id": 401,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What does thyroid uptake of Tc-99m pertechnetate depend on?",
+  "back": "The thyroid trapping the tracer, which recent iodinated contrast, some thyroid drugs and amiodarone can reduce."
+ },
+ {
+  "id": 402,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A patient due for thyroid imaging had iodinated contrast last week. What should you do?",
+  "back": "Tell the physician before injecting and follow their decision, because contrast can lower uptake."
+ },
+ {
+  "id": 403,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What does a myocardial perfusion study compare?",
+  "back": "Blood flow to the heart muscle at rest and under stress, to separate ischaemia from scar."
+ },
+ {
+  "id": 404,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Which tracers are usually used for myocardial perfusion imaging?",
+  "back": "Tc-99m sestamibi or tetrofosmin."
+ },
+ {
+  "id": 405,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "When is pharmacological stress used instead of exercise?",
+  "back": "When the patient cannot exercise to an adequate heart rate, or has a left bundle branch block or paced rhythm."
+ },
+ {
+  "id": 406,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Name two contraindications to adenosine or regadenoson.",
+  "back": "Active bronchospasm (asthma with wheeze or severe COPD) and high degree AV block without a pacemaker."
+ },
+ {
+  "id": 407,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Why must caffeine be withheld before adenosine stress?",
+  "back": "Caffeine blocks the receptor adenosine acts on, so the stress may be falsely normal. Hold it for the department's period, commonly 12 to 24 hours."
+ },
+ {
+  "id": 408,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A patient due for adenosine stress had two coffees this morning. What is the best action?",
+  "back": "Stop, inform the nuclear medicine physician and reschedule. Do not give a larger dose."
+ },
+ {
+  "id": 409,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Which stress agent is usually the alternative when a vasodilator is contraindicated?",
+  "back": "Dobutamine, which raises heart rate and contractility."
+ },
+ {
+  "id": 410,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "During a stress test the patient has chest pain with ECG change. What should you do?",
+  "back": "Stop the stress, call for help and start the emergency response with the clinician present."
+ },
+ {
+  "id": 411,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "In a V/Q scan, what does a ventilated but not perfused segment suggest?",
+  "back": "A mismatch, which raises suspicion of pulmonary embolism."
+ },
+ {
+  "id": 412,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Which agent is used for the perfusion part of a lung V/Q scan?",
+  "back": "Tc-99m macroaggregated albumin (MAA), which lodges in small lung vessels in proportion to blood flow."
+ },
+ {
+  "id": 413,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What does DMSA show in a kidney study?",
+  "back": "Cortical scarring and differential function, as it binds to the kidney cortex."
+ },
+ {
+  "id": 414,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Why is a diuretic given during a MAG3 study?",
+  "back": "To test whether a full, enlarged collecting system is obstructed or just baggy. It is given when the system is full."
+ },
+ {
+  "id": 415,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Why must a patient fast before a hepatobiliary scan?",
+  "back": "A recent meal contracts the gallbladder and stops it filling, which can mimic disease."
+ },
+ {
+  "id": 416,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What labels the tracer in a gastrointestinal bleed study?",
+  "back": "The patient's own red blood cells labelled with Tc-99m, so the tracer stays in the blood until it leaks into the bowel."
+ },
+ {
+  "id": 417,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What preparation does FDG PET/CT require?",
+  "back": "Fasting for about 4 to 6 hours with water allowed, a measured blood glucose, and about 60 minutes of quiet warm rest after injection."
+ },
+ {
+  "id": 418,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "Why is the patient kept warm and still during FDG uptake time?",
+  "back": "Warmth lowers brown fat uptake, and rest avoids muscle uptake that could mimic disease."
+ },
+ {
+  "id": 419,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "A diabetic patient's blood glucose is above the department limit before FDG. What is the best action?",
+  "back": "Delay and tell the physician, who sets the plan. Do not change insulin or give it on your own authority."
+ },
+ {
+  "id": 420,
+  "domain": "nuclear_medicine_technology_division",
+  "front": "What should written release advice after I-131 therapy include?",
+  "back": "Keep distance from others (especially children and pregnant women), sleep alone, hygiene and toilet rules, avoid public transport, stay off work for the stated days, and carry a treatment card."
+ },
+ {
+  "id": 421,
+  "domain": "radiation_therapy_division",
+  "front": "What is the gray (Gy), and how does it relate to centigray?",
+  "back": "One gray is 1 joule of energy absorbed per kilogram of tissue. 1 Gy equals 100 cGy."
+ },
+ {
+  "id": 422,
+  "domain": "radiation_therapy_division",
+  "front": "What does a monitor unit (MU) on a linear accelerator measure?",
+  "back": "It is a reading from the ionisation chambers in the machine head. The machine is calibrated so a set number of MU gives a known dose under reference conditions."
+ },
+ {
+  "id": 423,
+  "domain": "radiation_therapy_division",
+  "front": "List the main linac parts in beam order from the electron gun to the collimators.",
+  "back": "Electron gun, accelerating waveguide, bending magnet, target, flattening filter, ionisation chambers, then jaws and multileaf collimator."
+ },
+ {
+  "id": 424,
+  "domain": "radiation_therapy_division",
+  "front": "What is the isocentre, and how far is it usually from the source?",
+  "back": "It is the point where the gantry, collimator and couch axes meet. It is usually 100 cm from the source."
+ },
+ {
+  "id": 425,
+  "domain": "radiation_therapy_division",
+  "front": "How is a photon beam made inside a linac?",
+  "back": "Accelerated electrons strike a heavy metal target such as tungsten and make X-rays by bremsstrahlung."
+ },
+ {
+  "id": 426,
+  "domain": "radiation_therapy_division",
+  "front": "What changes in the linac head to produce an electron beam instead of photons?",
+  "back": "The target and flattening filter are moved out and a scattering foil and an applicator with a shaped cutout are used."
+ },
+ {
+  "id": 427,
+  "domain": "radiation_therapy_division",
+  "front": "What is dmax, and roughly where is it for 6 MV and 15 MV photons?",
+  "back": "It is the depth of maximum dose. It is about 1.5 cm for 6 MV and about 3 cm for 15 MV."
+ },
+ {
+  "id": 428,
+  "domain": "radiation_therapy_division",
+  "front": "Why do megavoltage photon beams spare the skin?",
+  "back": "The dose builds up over the first centimetres as forward moving electrons deposit energy, so the surface dose is low."
+ },
+ {
+  "id": 429,
+  "domain": "radiation_therapy_division",
+  "front": "A skin lesion only 1 cm deep is planned with a 15 MV photon beam. What is the problem?",
+  "back": "The build-up region is deeper than the target, so the target receives too little dose. A lower energy photon beam, an electron beam or bolus is more suitable."
+ },
+ {
+  "id": 430,
+  "domain": "radiation_therapy_division",
+  "front": "What is the rough rule for the practical range of an electron beam in tissue?",
+  "back": "The practical range in centimetres is about the energy in MeV divided by 2. The 90 percent depth is about the energy divided by 3 or 4."
+ },
+ {
+  "id": 431,
+  "domain": "radiation_therapy_division",
+  "front": "Why are electron beams chosen for superficial targets?",
+  "back": "They keep a high dose to a set depth and then fall steeply, so little dose reaches deeper tissue beyond the target."
+ },
+ {
+  "id": 432,
+  "domain": "radiation_therapy_division",
+  "front": "How do superficial and orthovoltage X-ray units differ from a megavoltage linac in dose pattern?",
+  "back": "They give kilovoltage X-rays with the highest dose at the surface, no build-up and no skin sparing. Bone absorbs more dose than soft tissue."
+ },
+ {
+  "id": 433,
+  "domain": "radiation_therapy_division",
+  "front": "What does percentage depth dose (PDD) describe?",
+  "back": "It is the dose at a depth as a percentage of the dose at dmax on the central axis for a stated energy, field size and SSD."
+ },
+ {
+  "id": 434,
+  "domain": "radiation_therapy_division",
+  "front": "What happens to PDD at a given depth as photon energy increases?",
+  "back": "It increases, because the higher energy beam is more penetrating."
+ },
+ {
+  "id": 435,
+  "domain": "radiation_therapy_division",
+  "front": "State the inverse square law for dose rate from a point source.",
+  "back": "Dose rate changes in proportion to 1 divided by the distance squared."
+ },
+ {
+  "id": 436,
+  "domain": "radiation_therapy_division",
+  "front": "The dose rate is 1.00 at 100 cm. What is it at 110 cm?",
+  "back": "It is (100 ÷ 110)², which is 10,000 ÷ 12,100 = 0.826, about 17 percent lower."
+ },
+ {
+  "id": 437,
+  "domain": "radiation_therapy_division",
+  "front": "A patient is set up 10 cm too far from the source and the MU are unchanged. What happens?",
+  "back": "The patient is under-treated, because the dose rate is lower at the greater distance."
+ },
+ {
+  "id": 438,
+  "domain": "radiation_therapy_division",
+  "front": "What does tissue phantom ratio (TPR) compare, and when is it used?",
+  "back": "It compares the dose at a depth with the dose at the same point at a reference depth, independent of SSD. It suits isocentric techniques."
+ },
+ {
+  "id": 439,
+  "domain": "radiation_therapy_division",
+  "front": "A single field has PDD 0.67 at the prescription depth and a field size factor of 1.02. Dose is 200 cGy at 1 cGy per MU at dmax. How many MU?",
+  "back": "200 ÷ 0.67 = 298.5, then ÷ 1.02 = 292.6, so 293 MU. Check: 293 × 1.02 × 0.67 = 200.2 cGy."
+ },
+ {
+  "id": 440,
+  "domain": "radiation_therapy_division",
+  "front": "What is the purpose of bolus, and what must be checked when it is used?",
+  "back": "It removes skin sparing and fills irregular contours. It must sit flat against the skin with no air gap."
+ },
+ {
+  "id": 441,
+  "domain": "radiation_therapy_division",
+  "front": "The therapist finds an air gap under bolus before treatment. What is the best action?",
+  "back": "Refit the bolus flat against the skin, and tell the team if the gap cannot be removed. An air gap lowers the dose near the skin."
+ },
+ {
+  "id": 442,
+  "domain": "radiation_therapy_division",
+  "front": "What do the jaws and the multileaf collimator each do?",
+  "back": "The jaws set the maximum rectangular field and the MLC leaves shape the beam to the target."
+ },
+ {
+  "id": 443,
+  "domain": "radiation_therapy_division",
+  "front": "Which source is common for HDR brachytherapy, and what is its half-life?",
+  "back": "Iridium-192, with a half-life of about 74 days, so it is replaced several times a year."
+ },
+ {
+  "id": 444,
+  "domain": "radiation_therapy_division",
+  "front": "During HDR brachytherapy the source does not return to the safe. What is the first response?",
+  "back": "Do not enter the room. Use the emergency retract or stop, check the room monitor, and call the radiation safety officer and physicist."
+ },
+ {
+  "id": 445,
+  "domain": "radiation_therapy_division",
+  "front": "Which imaging on treatment shows soft tissue best: EPID portal image, kV planar image or CBCT?",
+  "back": "CBCT shows soft tissue best. The portal image and kV planar image show bone better."
+ },
+ {
+  "id": 446,
+  "domain": "radiation_therapy_division",
+  "front": "A daily output or interlock check fails before the first patient. What should the therapist do?",
+  "back": "Do not treat. Report and record the failure and wait for the physicist to clear the machine."
+ },
+ {
+  "id": 447,
+  "domain": "radiation_therapy_division",
+  "front": "Why must a door interlock never be bypassed to save time?",
+  "back": "It prevents the beam starting when the door is open, so bypassing it risks staff and public exposure. If it cannot be cleared, stop and call the physicist."
+ },
+ {
+  "id": 448,
+  "domain": "radiation_therapy_division",
+  "front": "What does the gross tumour volume (GTV) describe in radiotherapy planning?",
+  "back": "The tumour that can be seen or felt on imaging or examination."
+ },
+ {
+  "id": 449,
+  "domain": "radiation_therapy_division",
+  "front": "What does the clinical target volume (CTV) add to the GTV?",
+  "back": "A margin for microscopic spread of disease that cannot be seen but is likely to be present."
+ },
+ {
+  "id": 450,
+  "domain": "radiation_therapy_division",
+  "front": "What is the planning target volume (PTV) and why is it used?",
+  "back": "The CTV (or ITV) plus a margin for set-up error and uncertainty. It makes sure the CTV truly receives the dose on every day of treatment."
+ },
+ {
+  "id": 451,
+  "domain": "radiation_therapy_division",
+  "front": "What is an internal target volume (ITV)?",
+  "back": "The CTV plus an allowance for movement of the target inside the body, for example with breathing."
+ },
+ {
+  "id": 452,
+  "domain": "radiation_therapy_division",
+  "front": "Why is a planning organ at risk volume (PRV) used for the spinal cord?",
+  "back": "The cord is a serial organ, so a small overdose could cause serious harm. The PRV adds a margin around it to allow for uncertainty."
+ },
+ {
+  "id": 453,
+  "domain": "radiation_therapy_division",
+  "front": "What is the difference between a systematic and a random set-up error?",
+  "back": "A systematic error is the same every day and shifts the whole course in one direction. A random error varies day to day and blurs the dose. Systematic errors are more dangerous."
+ },
+ {
+  "id": 454,
+  "domain": "radiation_therapy_division",
+  "front": "A patient's thermoplastic mask no longer fits after weight loss. What is the best action before treating?",
+  "back": "Stop, tell the treating team and arrange a new mask or repeat simulation if needed. Do not force the mask or treat anyway."
+ },
+ {
+  "id": 455,
+  "domain": "radiation_therapy_division",
+  "front": "What does intensity-modulated radiation therapy (IMRT) do differently from 3D conformal therapy?",
+  "back": "It varies the intensity across each beam by moving the multileaf collimator during delivery, so dose can wrap around concave shapes and spare nearby organs."
+ },
+ {
+  "id": 456,
+  "domain": "radiation_therapy_division",
+  "front": "What is volumetric-modulated arc therapy (VMAT)?",
+  "back": "IMRT delivered while the gantry rotates in one or more arcs. It is usually faster than fixed-field IMRT."
+ },
+ {
+  "id": 457,
+  "domain": "radiation_therapy_division",
+  "front": "Why are set-up checks and image guidance stricter for SBRT and SRS?",
+  "back": "Very high doses are given in one to a few fractions, so any error forms a large part of the whole treatment."
+ },
+ {
+  "id": 458,
+  "domain": "radiation_therapy_division",
+  "front": "What does a dose-volume histogram (DVH) show?",
+  "back": "The percentage of a structure's volume that receives at least a given dose, plotted for each structure."
+ },
+ {
+  "id": 459,
+  "domain": "radiation_therapy_division",
+  "front": "How should a good target curve and a good organ at risk curve look on a DVH?",
+  "back": "The target curve stays high and then drops sharply near the prescription dose. The organ at risk curve falls away quickly, so little of the organ gets a high dose."
+ },
+ {
+  "id": 460,
+  "domain": "radiation_therapy_division",
+  "front": "Which dose matters most for a serial organ such as the spinal cord, and which for a parallel organ such as lung?",
+  "back": "For a serial organ the maximum point dose matters most. For a parallel organ the volume receiving a moderate dose matters most."
+ },
+ {
+  "id": 461,
+  "domain": "radiation_therapy_division",
+  "front": "A plan covers the PTV well but breaks a spinal cord constraint. What should the practitioner do?",
+  "back": "Flag it to the planner and the radiation oncologist so a decision is made. Do not accept the plan quietly or trade the cord limit away without the oncologist deciding."
+ },
+ {
+  "id": 462,
+  "domain": "radiation_therapy_division",
+  "front": "List the items a complete radiotherapy prescription must include.",
+  "back": "Site, total dose, dose per fraction, number of fractions, technique, energy, and the dose specification point or volume."
+ },
+ {
+  "id": 463,
+  "domain": "radiation_therapy_division",
+  "front": "What is conventional fractionation?",
+  "back": "About 1.8 to 2 Gy per fraction, one fraction a day, five days a week, over several weeks."
+ },
+ {
+  "id": 464,
+  "domain": "radiation_therapy_division",
+  "front": "Why is the total dose split into fractions?",
+  "back": "Between treatments healthy tissue repairs itself better than tumour does, so splitting the dose spares normal tissue."
+ },
+ {
+  "id": 465,
+  "domain": "radiation_therapy_division",
+  "front": "What is the formula for biologically effective dose (BED)?",
+  "back": "BED = n × d × (1 + d ÷ (alpha/beta)), where n is the number of fractions and d is the dose per fraction in Gy."
+ },
+ {
+  "id": 466,
+  "domain": "radiation_therapy_division",
+  "front": "Calculate the BED for 30 fractions of 2 Gy with an alpha/beta of 10 Gy.",
+  "back": "Total 60 Gy. d ÷ (alpha/beta) = 0.2. BED = 60 × 1.2 = 72 Gy."
+ },
+ {
+  "id": 467,
+  "domain": "radiation_therapy_division",
+  "front": "Why do late-reacting tissues such as spinal cord care more about fraction size?",
+  "back": "They have a low alpha/beta ratio, so larger fractions raise late damage faster than tumour effect, and the total dose must be reduced."
+ },
+ {
+  "id": 468,
+  "domain": "radiation_therapy_division",
+  "front": "Before any beam is delivered, how should patient identity be confirmed?",
+  "back": "Use at least three identifiers, such as full name, date of birth and record number, asked of the patient where they can answer."
+ },
+ {
+  "id": 469,
+  "domain": "radiation_therapy_division",
+  "front": "What is the purpose of a time-out before treatment?",
+  "back": "A short pause where the team confirms aloud the patient, site, technique and special instructions such as bolus or a cardiac device."
+ },
+ {
+  "id": 470,
+  "domain": "radiation_therapy_division",
+  "front": "The record-and-verify system shows a warning. What is the best action?",
+  "back": "Find out why before continuing. Never override a warning you do not understand."
+ },
+ {
+  "id": 471,
+  "domain": "radiation_therapy_division",
+  "front": "A CBCT shows a 9 mm shift when the department's action level is 5 mm. What should the practitioner do?",
+  "back": "Stop and check the set-up, patient position and image match, and involve senior staff or the oncologist as the protocol says. Do not simply apply the shift."
+ },
+ {
+  "id": 472,
+  "domain": "radiation_therapy_division",
+  "front": "A prescription is 66 Gy in 33 fractions. After 14 fractions, how much dose remains?",
+  "back": "Dose per fraction is 2 Gy, delivered is 28 Gy, so 38 Gy remains, which is 19 fractions."
+ },
+ {
+  "id": 473,
+  "domain": "radiation_therapy_division",
+  "front": "A patient misses a treatment day. Who decides how the dose is made up?",
+  "back": "The radiation oncologist. The radiation therapist records the missed fraction and refers the decision."
+ },
+ {
+  "id": 474,
+  "domain": "radiation_therapy_division",
+  "front": "A patient with a pacemaker arrives and no one knew about the device. What happens next?",
+  "back": "Treatment waits until the radiation oncologist has reviewed the plan, with a dose limit set by local protocol and advice from the cardiology or device clinic."
+ },
+ {
+  "id": 475,
+  "domain": "radiation_therapy_division",
+  "front": "What does the N in TNM staging describe?",
+  "back": "Whether cancer cells are present in regional lymph nodes."
+ },
+ {
+  "id": 476,
+  "domain": "radiation_therapy_division",
+  "front": "What does the M in TNM staging describe?",
+  "back": "Whether there are distant metastases, meaning cancer deposits in organs away from the primary tumour."
+ },
+ {
+  "id": 477,
+  "domain": "radiation_therapy_division",
+  "front": "What is the aim of curative (radical) radiation therapy and what does it accept?",
+  "back": "The aim is to cure the cancer. It uses higher doses over several weeks and accepts more side effects."
+ },
+ {
+  "id": 478,
+  "domain": "radiation_therapy_division",
+  "front": "What is the aim of palliative radiation therapy?",
+  "back": "To relieve symptoms such as pain or bleeding, using lower doses and shorter courses with few side effects."
+ },
+ {
+  "id": 479,
+  "domain": "radiation_therapy_division",
+  "front": "A patient on palliative treatment for bone pain asks if it will cure the cancer. What is the best response?",
+  "back": "Be honest and kind: the aim is to ease pain, it may take a couple of weeks to work, and the oncology team can discuss the wider plan."
+ },
+ {
+  "id": 480,
+  "domain": "radiation_therapy_division",
+  "front": "Name the four Rs of radiobiology.",
+  "back": "Repair, repopulation, reassortment (redistribution) and reoxygenation."
+ },
+ {
+  "id": 481,
+  "domain": "radiation_therapy_division",
+  "front": "What is the therapeutic ratio?",
+  "back": "The gap between the dose that controls the tumour and the dose that causes unacceptable normal tissue damage. Radiation therapy tries to widen it."
+ },
+ {
+  "id": 482,
+  "domain": "radiation_therapy_division",
+  "front": "Why are hypoxic tumour cells a problem for radiation therapy?",
+  "back": "They are roughly two and a half to three times harder to kill with X-rays than well oxygenated cells."
+ },
+ {
+  "id": 483,
+  "domain": "radiation_therapy_division",
+  "front": "Which type of DNA damage is most likely to kill a cell?",
+  "back": "A double strand break, because it is much harder to repair than a single strand break."
+ },
+ {
+  "id": 484,
+  "domain": "radiation_therapy_division",
+  "front": "Why is the total dose divided into daily fractions?",
+  "back": "It lets normal tissue repair between fractions and exposes tumour cells to reoxygenation and reassortment, sparing late responding tissue."
+ },
+ {
+  "id": 485,
+  "domain": "radiation_therapy_division",
+  "front": "A prescription is 60 Gy in 30 fractions and 12 fractions are done. How much dose remains?",
+  "back": "Dose per fraction is 2 Gy. Delivered is 24 Gy, so 36 Gy remains over 18 fractions."
+ },
+ {
+  "id": 486,
+  "domain": "radiation_therapy_division",
+  "front": "In the BED formula, which two quantities decide how much a larger dose per fraction raises the biological effect?",
+  "back": "The dose per fraction d and the α/β ratio of the tissue. A bigger d, or a smaller α/β ratio, makes the term d ÷ (α/β) larger, so BED rises more."
+ },
+ {
+  "id": 487,
+  "domain": "radiation_therapy_division",
+  "front": "What α/β values are typically used for tumours and for late responding tissue?",
+  "back": "About 10 Gy for tumours and early responding tissue, and about 3 Gy for late responding tissue."
+ },
+ {
+  "id": 488,
+  "domain": "radiation_therapy_division",
+  "front": "What is the BED to late tissue (α/β 3 Gy) for 60 Gy given as 20 fractions of 3 Gy?",
+  "back": "60 × (1 + 3 ÷ 3) = 60 × 2 = 120 Gy."
+ },
+ {
+  "id": 489,
+  "domain": "radiation_therapy_division",
+  "front": "Why must a hypofractionated schedule use a lower total dose than a conventional one?",
+  "back": "Larger fractions are biologically stronger, and they raise the late tissue effect more than the tumour effect."
+ },
+ {
+  "id": 490,
+  "domain": "radiation_therapy_division",
+  "front": "A patient misses several treatment days. What should the therapist do?",
+  "back": "Report the missed fractions to the radiation oncologist, who decides how to compensate, because tumour cells repopulate during gaps."
+ },
+ {
+  "id": 491,
+  "domain": "radiation_therapy_division",
+  "front": "Which tissues show acute radiation reactions, and when do they appear?",
+  "back": "Fast dividing tissues such as skin, mucosa and bowel lining, during treatment or within about three months."
+ },
+ {
+  "id": 492,
+  "domain": "radiation_therapy_division",
+  "front": "What is mucositis and which patients get it most?",
+  "back": "Soreness and ulcers in the mouth and throat, most common in head and neck patients."
+ },
+ {
+  "id": 493,
+  "domain": "radiation_therapy_division",
+  "front": "A head and neck patient in week 4 has painful swallowing and weight loss. What is the best action?",
+  "back": "Report to the nurse or radiation oncologist the same day and request dietitian review. Do not just say it will settle."
+ },
+ {
+  "id": 494,
+  "domain": "radiation_therapy_division",
+  "front": "Give two pieces of skin care advice during radiation therapy.",
+  "back": "Wash gently with lukewarm water and mild soap and pat dry, and avoid sun, hot packs, tight clothing and adhesives on the area."
+ },
+ {
+  "id": 495,
+  "domain": "radiation_therapy_division",
+  "front": "Why can radiation reactions be stronger when chemotherapy is given at the same time?",
+  "back": "Concurrent chemotherapy can strengthen radiation reactions, so the patient needs close monitoring and prompt reporting of symptoms."
+ },
+ {
+  "id": 496,
+  "domain": "radiation_therapy_division",
+  "front": "Why are late effects often permanent?",
+  "back": "They occur in slowly dividing tissues such as spinal cord, kidney and connective tissue, months to years after treatment."
+ },
+ {
+  "id": 497,
+  "domain": "radiation_therapy_division",
+  "front": "Name the warning signs of spinal cord compression.",
+  "back": "New or worsening back pain, band-like pain, leg weakness or heaviness, numbness, difficulty walking, or new bladder or bowel change."
+ },
+ {
+  "id": 498,
+  "domain": "radiation_therapy_division",
+  "front": "A lung cancer patient says their legs feel heavy and strange since yesterday. What is the best action?",
+  "back": "Stop, keep the patient safe, and report to the radiation oncologist immediately, following the local procedure."
+ },
+ {
+  "id": 499,
+  "domain": "radiation_therapy_division",
+  "front": "What signs suggest superior vena cava obstruction?",
+  "back": "Swelling of the face, neck and arms, breathlessness, distended neck veins, and sometimes headache."
+ },
+ {
+  "id": 500,
+  "domain": "radiation_therapy_division",
+  "front": "What three principles protect staff around brachytherapy sources?",
+  "back": "Time, distance and shielding, with source accounting and a rehearsed emergency procedure for a source that does not retract."
+ }
+]
